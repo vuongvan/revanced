@@ -76,7 +76,7 @@ get_rv_prebuilts() {
 	local rv_patches_jar="${patches_dir}/${rv_patches_url##*/}"
 	[ -f "$rv_patches_jar" ] || REBUILD=true
 	echo "Patches: $(cut -d/ -f4 <<<"$rv_patches_url")/$(cut -d/ -f9 <<<"$rv_patches_url")  " >>"$patches_dir/changelog.md"
-	echo -e "\n${rv_patches_changelog//# [/### [}\n---" >>"$patches_dir/changelog.md"
+	#echo -e "\n${rv_patches_changelog//# [/### [}\n---" >>"$patches_dir/changelog.md"
 
 	dl_if_dne "$rv_cli_jar" "$rv_cli_url" >&2
 	dl_if_dne "$rv_integrations_apk" "$rv_integrations_url" >&2
