@@ -10,7 +10,9 @@ jobs:
         with:
           distribution: "zulu"
           java-version: "17"
-
+      - name: Install aapt
+        run: |
+          sudo apt install aapt jq
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -48,6 +50,23 @@ jobs:
           cat build.md >> "$GITHUB_OUTPUT"
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
+          
+          cd build
+          yt_rv=$(find . -maxdepth 1 -name "youtube-revanced-*.apk" -printf '%P')
+          ver_rv=$(aapt dump badging $yt_rv | sed -n "s/.*versionCode='\([^']*\).*/\1/p")
+          yt_rx=$(find . -maxdepth 1 -name "youtube-revancedx-*.apk" -printf '%P')
+          ver_rv=$(aapt dump badging $yt_rx | sed -n "s/.*versionCode='\([^']*\).*/\1/p")
+          echo "YTRV_OUTPUT=$yt_rv"  >> $GITHUB_OUTPUT
+          echo "YTRX_OUTPUT=$yt_rx"  >> $GITHUB_OUTPUT
+          echo "VERRV_OUTPUT=$ver_rv"  >> $GITHUB_OUTPUT
+          echo "VERRX_OUTPUT=$ver_rx"  >> $GITHUB_OUTPUT
+          if [ -z "$yt_ex" ]; then
+            echo "RELEASE_NAME=ReVanced"  >> $GITHUB_OUTPUT
+          else
+            echo "RELEASE_NAME=ReVanced"  >> $GITHUB_OUTPUT
+          fi
+          
+
 
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
@@ -65,27 +84,49 @@ jobs:
         run: |
           git checkout -f update || git switch --discard-changes --orphan update
           cp -f build.tmp build.md
-          get_update_json() {
-            echo "{
-            \"version\": \"$1\",
-            \"versionCode\": ${{ steps.next_ver_code.outputs.NEXT_VER_CODE}},
-            \"zipUrl\": \"$2\",
-            \"changelog\": \"https://raw.githubusercontent.com/$GITHUB_REPOSITORY/update/build.md\"
-          }"
-          }
-
-          cd build || { echo "build folder not found"; exit 1; }
-          for OUTPUT in *magisk*.zip; do
-            [ "$OUTPUT" = "*magisk*.zip" ] && continue
-            ZIP_S=$(unzip -p "$OUTPUT" module.prop)
-            if ! UPDATE_JSON=$(echo "$ZIP_S" | grep updateJson); then continue; fi
-            UPDATE_JSON="${UPDATE_JSON##*/}"
-            VER=$(echo "$ZIP_S" | grep version=)
-            VER="${VER##*=}"
-            DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
-            get_update_json "$VER" "$DLURL" >"../$UPDATE_JSON"
-          done
-          cd ..
+          
+          echo -e "\n[revanced-magisk-module repo]($GITHUB_SERVER_URL/vuongvan/magisk-module)" >>latest_build.md
+          CHANGELOG_JSON=$(cat build.md | sed -e 's/([^()]*)//g' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g' | sed 's/\*\*//g' | sed 's/\*/\-/g' | sed -e 's/([^()]*\])//g' | tr -d '\`' | tr '\n' ' \n' | sed 's!http[s]\?://\S*!!g')
+          #echo $CHANGELOG_JSON
+          
+          get_update_rv_json() {
+            echo "  \"vanced\": {
+                   \"version\": \"$1\",
+                   \"versionCode\": $2,
+                   \"url\": \"$3\",
+                   \"changelog\": \"$4\"
+                },"
+            }
+          get_update_rx_json() {
+            echo "  \"music\": {
+                   \"version\": \"$1\",
+                   \"versionCode\": $2,
+                   \"url\": \"$3\",
+                   \"changelog\": \"$4\"
+                },"
+            }
+          
+          if [ -n "${{ steps.get_output.outputs.YT_OUTPUTEX }}" ]; then
+            YTRV_VER=$(echo "${{ steps.get_output.outputs.BUILD_LOG }}" | sed -n 's/.*YouTube:\(.*\)/\1/p')
+            YTRX_VER=$(echo "${{ steps.get_output.outputs.BUILD_LOG }}" | sed -n 's/.*YouTube-Extended:\(.*\)/\1/p')
+            
+            YTRV_VER_CODE=${{ steps.get_output.outputs.VERRV_OUTPUT }}
+            YTRX_VER_CODE=${{ steps.get_output.outputs.VERRX_OUTPUT }}
+            
+            PVER_CODE=$(echo "${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}" | sed -e 's/\.//g')
+            
+            YTRV_DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE}}/${{ steps.get_output.outputs.YTRV_OUTPUT }}"
+            YTRX_DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE}}/${{ steps.get_output.outputs.YTRX_OUTPUT }}"
+            
+            UPDATE_YT_JSON=$(get_update_rx_json "$YTRV_VER" "$YTRV_VER_CODE" "$YTRV_DLURL" "$CHANGELOG_JSON")
+            echo "$UPDATE_YT_JSON" >config-rv.json
+            
+            UPDATE_YT_JSON=$(get_update_rx_json "$YTRX_VER" "$YTRX_VER_CODE" "$YTRX_DLURL" "$CHANGELOG_JSON")
+            echo "$UPDATE_YT_JSON" >config-rx.json
+            
+            if [ ! -f config-rv.json ]; then : >config-rv.json; fi
+            cat config-mn.json config-rv.json config-rx.json config-micro.json > yt-update.json
+          fi
 
           find . -name "*-update.json" | grep . || : >dummy-update.json
 
@@ -93,46 +134,8 @@ jobs:
         with:
           branch: update
           skip_checkout: true
-          file_pattern: build.md *-update.json
+          file_pattern: build.md *.json
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-
-      - name: Report to Telegram
-        env:
-          TG_TOKEN: ${{ secrets.TG_TOKEN }}
-        if: env.TG_TOKEN != null
-        run: |
-          cd build || { echo "build folder not found"; exit 1; }
-
-          TG_CHAT="@rvc_magisk"
-          NL=$'\n'
-          APKS=""
-          MODULES=""
-          for OUTPUT in *; do
-            DL_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
-            if [[ $OUTPUT = *.apk ]]; then
-              APKS+="${NL}📦[${OUTPUT}](${DL_URL})"
-            elif [[ $OUTPUT = *.zip ]]; then
-              MODULES+="${NL}📦[${OUTPUT}](${DL_URL})"
-            fi
-          done
-          MODULES=${MODULES#"$NL"}
-          APKS=${APKS#"$NL"}
-
-          BODY="$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)"
-          MSG="*New build!*
-
-          ${BODY}
-
-          *▼ Download Links:*
-          Modules:
-          ${MODULES}
-
-          APKs:
-          ${APKS}
-          "
-          echo "'$MSG'"
-          POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
-          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
 
       - uses: actions/upload-artifact@v3
         with:
