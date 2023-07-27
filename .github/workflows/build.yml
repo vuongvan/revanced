@@ -83,10 +83,11 @@ jobs:
         id: update_config
         run: |
           git checkout -f update || git switch --discard-changes --orphan update
+          
           cp -f build.tmp build.md
           
           echo -e "\n[revanced-magisk-module repo]($GITHUB_SERVER_URL/vuongvan/magisk-module)" >>latest_build.md
-          CHANGELOG_JSON=$(cat build.md | sed -e 's/([^()]*)//g' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g' | sed 's/\*\*//g' | sed 's/\*/\-/g' | sed -e 's/([^()]*\])//g' | tr -d '\`' | tr '\n' ' \n' | sed 's!http[s]\?://\S*!!g')
+          CHANGELOG_JSON=$(cat build.tmp | sed -e 's/([^()]*)//g' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g' | sed 's/\*\*//g' | sed 's/\*/\-/g' | sed -e 's/([^()]*\])//g' | tr -d '\`' | tr '\n' ' \n' | sed 's!http[s]\?://\S*!!g')
           #echo $CHANGELOG_JSON
           
           get_update_rv_json() {
@@ -128,7 +129,7 @@ jobs:
             cat config-mn.json config-rv.json config-rx.json config-micro.json > yt-update.json
           fi
 
-          find . -name "*-update.json" | grep . || : >dummy-update.json
+          #find . -name "*-update.json" | grep . || : >dummy-update.json
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
