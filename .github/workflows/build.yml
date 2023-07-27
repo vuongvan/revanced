@@ -55,7 +55,7 @@ jobs:
           yt_rv=$(find . -maxdepth 1 -name "youtube-revanced-*.apk" -printf '%P')
           ver_rv=$(aapt dump badging $yt_rv | sed -n "s/.*versionCode='\([^']*\).*/\1/p")
           yt_rx=$(find . -maxdepth 1 -name "youtube-revancedx-*.apk" -printf '%P')
-          ver_rv=$(aapt dump badging $yt_rx | sed -n "s/.*versionCode='\([^']*\).*/\1/p")
+          ver_rx=$(aapt dump badging $yt_rx | sed -n "s/.*versionCode='\([^']*\).*/\1/p")
           echo "YTRV_OUTPUT=$yt_rv"  >> $GITHUB_OUTPUT
           echo "YTRX_OUTPUT=$yt_rx"  >> $GITHUB_OUTPUT
           echo "VERRV_OUTPUT=$ver_rv"  >> $GITHUB_OUTPUT
@@ -108,8 +108,8 @@ jobs:
             }
           
           if [ -n "${{ steps.get_output.outputs.YTRV_OUTPUT }}" ]; then
-            YTRV_VER=$(echo "${{ steps.get_output.outputs.BUILD_LOG }}" | sed -n 's/.*YouTube:\(.*\)/\1/p')
-            YTRX_VER=$(echo "${{ steps.get_output.outputs.BUILD_LOG }}" | sed -n 's/.*YouTube-Extended:\(.*\)/\1/p')
+            YTRV_VER=$(echo "${{ steps.get_output.outputs.BUILD_LOG }}" | sed -n 's/.*YouTube:\(.*\)/\1/p' | tr -d '[:space:]')
+            YTRX_VER=$(echo "${{ steps.get_output.outputs.BUILD_LOG }}" | sed -n 's/.*YouTube-Extended:\(.*\)/\1/p' | tr -d '[:space:]')
             
             YTRV_VER_CODE=${{ steps.get_output.outputs.VERRV_OUTPUT }}
             YTRX_VER_CODE=${{ steps.get_output.outputs.VERRX_OUTPUT }}
