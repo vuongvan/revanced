@@ -9,14 +9,14 @@
   "vanced": {
          "version": "18.23.35",
          "versionCode": 1538252224,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/9/youtube-revanced-v18.23.35-all.apk",
-         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \n\n---\nChangelog:  \n---\n\n\nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.114.0.apk  \nPatches: ReVanced/revanced-patches-2.186.0.jar  \n---\n\n\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.8.apk  \nPatches: inotia00/revanced-patches-2.186.8.jar     "
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/10/youtube-revanced-v18.23.35-all.apk",
+         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \nMessenger: 419.0.0.10.49  \n\nInstall [Vanced Microg] for non-root YouTube or YT Music  \n\n[revanced-magisk-module]  \n\n---\nChangelog:  \n---\n\n---CLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.114.0.apk  \nPatches: ReVanced/revanced-patches-2.186.0.jar  \n---\n\n---CLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.8.apk  \nPatches: inotia00/revanced-patches-2.186.8.jar     "
       },
   "music": {
          "version": "18.27.36",
          "versionCode": 1538778560,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/9/youtube-revancedx-v18.27.36-all.apk",
-         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \n\n---\nChangelog:  \n---\n\n\nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.114.0.apk  \nPatches: ReVanced/revanced-patches-2.186.0.jar  \n---\n\n\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.8.apk  \nPatches: inotia00/revanced-patches-2.186.8.jar     "
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/10/youtube-revancedx-v18.27.36-all.apk",
+         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \nMessenger: 419.0.0.10.49  \n\nInstall [Vanced Microg] for non-root YouTube or YT Music  \n\n[revanced-magisk-module]  \n\n---\nChangelog:  \n---\n\n---CLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.114.0.apk  \nPatches: ReVanced/revanced-patches-2.186.0.jar  \n---\n\n---CLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.8.apk  \nPatches: inotia00/revanced-patches-2.186.8.jar     "
       },
   "microg": {
          "version": "0.2.27.230755",
