@@ -2,7 +2,7 @@ name: CI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 4,16 * * *"
 
 jobs:
   check:
@@ -77,3 +77,6 @@ jobs:
     uses: ./.github/workflows/buildx.yml
     if: ${{ needs.check.outputs.SHOULD_BUILD == 1 }}
     secrets: inherit
+
+  deletele_action_log:
+    uses: ./.github/workflows/del.yml
