@@ -166,7 +166,7 @@ if [ "$youtube_mode" != apk ] || [ "$music_mode" != module ]; then
 	log "\nInstall [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music"
 fi
 
-log "\nChangelog:\n----\n"
+log "\nChangelog:\n----"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
 
 pr "Done"
