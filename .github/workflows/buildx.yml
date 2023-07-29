@@ -43,9 +43,11 @@ jobs:
           NEXT_VER_CODE: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
       - name: Download Manager and MicroG
+        id: config_mnmg
         run: |
-          curl https://vuongvan.github.io/VancedManager/rvmn.apk -o rvmn.apk
-          curl https://github.com/inotia00/VancedMicroG/releases/latest/download/microg.apk -o microg.apk
+          wget https://vuongvan.github.io/VancedManager/rvmn.apk -O rvmn.apk
+          
+          
           rm_op=$(find . -maxdepth 1 -name "rvmn.apk" -printf '%P')
           ver_code=$(aapt dump badging $rm_op | sed -n "s/.*versionName='\([^']*\).*/\1/p")
           echo "RM_VER_NAME_OUTPUT=$ver_code"  >> $GITHUB_OUTPUT
@@ -54,7 +56,7 @@ jobs:
           echo "RM_VER_CODE_OUTPUT=$ver_code"  >> $GITHUB_OUTPUT
           echo $ver_code
           
-          
+          wget https://github.com/inotia00/VancedMicroG/releases/latest/download/microg.apk -O microg.apk
           mg_op=$(find . -maxdepth 1 -name "microg.apk" -printf '%P')
           ver_code=$(aapt dump badging $mg_op | sed -n "s/.*versionName='\([^']*\).*/\1/p")
           echo $ver_code
@@ -156,10 +158,10 @@ jobs:
             
             PVER_CODE=$(echo "${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}" | sed -e 's/\.//g')
             
-            RM_VER_NAME=${{ steps.next_ver_code.outputs.RM_VER_NAME_OUTPUT }}
-            RM_VER_CODE=${{ steps.next_ver_code.outputs.RM_VER_CODE_OUTPUT }}
-            MG_VER_NAME=${{ steps.next_ver_code.outputs.MG_VER_NAME_OUTPUT }}
-            MG_VER_CODE=${{ steps.next_ver_code.outputs.MG_VER_CODE_OUTPUT }}
+            RM_VER_NAME=${{ steps.config_mnmg.outputs.RM_VER_NAME_OUTPUT }}
+            RM_VER_CODE=${{ steps.config_mnmg.outputs.RM_VER_CODE_OUTPUT }}
+            MG_VER_NAME=${{ steps.config_mnmg.outputs.MG_VER_NAME_OUTPUT }}
+            MG_VER_CODE=${{ steps.config_mnmg.outputs.MG_VER_CODE_OUTPUT }}
             
             YTRV_DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE}}/${{ steps.get_output.outputs.YTRV_OUTPUT }}"
             YTRX_DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE}}/${{ steps.get_output.outputs.YTRX_OUTPUT }}"
