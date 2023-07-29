@@ -79,4 +79,5 @@ jobs:
     secrets: inherit
 
   deletele_action_log:
+    permissions: write-all
     uses: ./.github/workflows/del.yml
