@@ -65,7 +65,7 @@ jobs:
       - name: Delete old release runs
         uses: dev-drprasad/delete-older-releases@v0.2.0
         with:
-          keep_latest: 10
+          keep_latest: 500
           delete_tags: true
           repo: ${{ github.repository }}
         env:
