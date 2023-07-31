@@ -31,7 +31,7 @@ cli-source = "kitadai31/rvcli"
 rv-brand = "RevancedOld"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-excluded-patches = "custom-branding-youtube-name custom-package-name custom-branding-icon-revancify-blue debugging materialyou premium-heading custom-branding-icon-afn-blue custom-branding-icon-revancify custom-branding-icon-afn-red return-youtube-dislike"                                                 # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = "custom-branding-name theme custom-package-name custom-branding-icon-revancify-blue debugging materialyou premium-heading custom-branding-icon-afn-blue custom-branding-icon-revancify custom-branding-icon-afn-red return-youtube-dislike"                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""
 
 [Music]
