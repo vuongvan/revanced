@@ -9,14 +9,14 @@
   "vanced": {
          "version": "18.23.35",
          "versionCode": 1538252224,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/19/youtube-revanced-v18.23.35-all.apk",
-         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.29.38  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.114.0.apk  \nPatches: ReVanced/revanced-patches-2.186.0.jar  \n\n2023-07-21T15:08:38Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.10.apk  \nPatches: inotia00/revanced-patches-2.186.10.jar  \n\n2023-07-30T00:08:54Z\n---\nCLI: kitadai31/revanced-cli-2.21.2-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.4.apk  \nPatches: kitadai31/revanced-patches-2.160.4.jar  \n\n2023-05-01T12:03:16Z\n---   "
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/20/youtube-revanced-v18.23.35-all.apk",
+         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.29.38  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.115.0.apk  \nPatches: ReVanced/revanced-patches-2.187.0.jar  \n\n2023-08-02T23:38:56Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.10.apk  \nPatches: inotia00/revanced-patches-2.186.10.jar  \n\n2023-07-30T00:08:54Z\n---\nCLI: kitadai31/revanced-cli-2.21.2-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.4.apk  \nPatches: kitadai31/revanced-patches-2.160.4.jar  \n\n2023-05-01T12:03:16Z\n---   "
       },
   "music": {
          "version": "18.29.38",
          "versionCode": 1539044800,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/19/youtube-revancedx-v18.29.38-all.apk",
-         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.29.38  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.114.0.apk  \nPatches: ReVanced/revanced-patches-2.186.0.jar  \n\n2023-07-21T15:08:38Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.10.apk  \nPatches: inotia00/revanced-patches-2.186.10.jar  \n\n2023-07-30T00:08:54Z\n---\nCLI: kitadai31/revanced-cli-2.21.2-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.4.apk  \nPatches: kitadai31/revanced-patches-2.160.4.jar  \n\n2023-05-01T12:03:16Z\n---   "
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/20/youtube-revancedx-v18.29.38-all.apk",
+         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.29.38  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.115.0.apk  \nPatches: ReVanced/revanced-patches-2.187.0.jar  \n\n2023-08-02T23:38:56Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.10.apk  \nPatches: inotia00/revanced-patches-2.186.10.jar  \n\n2023-07-30T00:08:54Z\n---\nCLI: kitadai31/revanced-cli-2.21.2-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.4.apk  \nPatches: kitadai31/revanced-patches-2.160.4.jar  \n\n2023-05-01T12:03:16Z\n---   "
       },
   "microg": {
          "version": "0.2.27.230755",
