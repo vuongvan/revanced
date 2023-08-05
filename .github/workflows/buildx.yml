@@ -179,7 +179,9 @@ jobs:
             echo "$UPDATE_YT_JSON" >config-micro.json
             
             if [ ! -f config-rv.json ]; then : >config-rv.json; fi
-            cat config-mn.json config-rv.json config-rx.json config-micro.json > yt-update.json
+            cat config-mn.json config-rv.json config-stable.json config-micro.json > yt-update.json
+            cat config-mn.json config-rv.json config-stable.json config-micro.json > yt-stable.json
+            cat config-mn.json config-rv.json config-old.json config-micro.json > yt-old.json
           fi
 
           #find . -name "*-update.json" | grep . || : >dummy-update.json
@@ -188,7 +190,7 @@ jobs:
         with:
           branch: update
           skip_checkout: true
-          file_pattern: build.md *update.json
+          file_pattern: build.md yt-*.json
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
       - uses: actions/upload-artifact@v3
