@@ -1,5 +1,5 @@
 YouTube: 18.23.35  
-YouTube-Extended: 18.29.38  
+YouTube-Extended: 18.30.37  
 YouTube-Android7: 17.34.36  
 
 Changelog:
@@ -11,10 +11,10 @@ Patches: ReVanced/revanced-patches-2.187.0.jar
 2023-08-02T23:38:56Z
 ---
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.114.12.apk  
-Patches: inotia00/revanced-patches-2.186.12.jar  
+Integrations: inotia00/revanced-integrations-0.115.1.apk  
+Patches: inotia00/revanced-patches-2.187.1.jar  
 
-2023-08-03T05:36:39Z
+2023-08-05T01:03:23Z
 ---
 CLI: kitadai31/revanced-cli-2.21.2-all.jar  
 Integrations: kitadai31/revanced-integrations-0.96.4.apk  
