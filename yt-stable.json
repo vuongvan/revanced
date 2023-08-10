@@ -9,8 +9,8 @@
   "vanced": {
          "version": "18.23.35",
          "versionCode": 1538252224,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/24/youtube-revanced-v18.23.35-all.apk",
-         "changelog": "YouTube: 18.23.35  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.115.0.apk  \nPatches: ReVanced/revanced-patches-2.187.0.jar  \n\n2023-08-02T23:38:56Z\n---   "
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/25/youtube-revanced-v18.23.35-all.apk",
+         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.115.1.apk  \nPatches: ReVanced/revanced-patches-2.187.0.jar  \n\n2023-08-02T23:38:56Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: vuongvan/revanced-integrations-0.114.8.apk  \nPatches: vuongvan/revanced-patches-2.186.8.jar  \n\n2023-08-10T14:00:46Z\n---   "
       },
   "music": {
          "version": "18.27.36",
