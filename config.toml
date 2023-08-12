@@ -19,7 +19,10 @@ patches-source = "vuongvan/revanced-patches"
 integrations-source = "vuongvan/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "RevancedX"
-apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+excluded-patches = "custom-branding-youtube-name custom-package-name custom-branding-icon-revancify-blue debugging materialyou premium-heading custom-branding-icon-afn-blue custom-branding-icon-revancify custom-branding-icon-afn-red return-youtube-dislike"                                                 # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = ""
 
 [YouTube-Android7]
 enabled = true
