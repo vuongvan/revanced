@@ -19,7 +19,7 @@ patches-source = "vuongvan/revanced-patches"
 integrations-source = "vuongvan/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "RevancedX"
-pkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
+apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
 
 [YouTube-Android7]
 enabled = true
