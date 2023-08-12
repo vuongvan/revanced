@@ -25,7 +25,7 @@ excluded-patches = "custom-branding-youtube-name custom-package-name custom-bran
 included-patches = ""
 
 [YouTube-Android7]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "kitadai31/revanced-patches-android6-7"
 integrations-source = "kitadai31/revanced-integrations"
