@@ -15,14 +15,16 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 [YouTube-Extended]
 enabled = true
 app-name = "YouTube"
-patches-source = "vuongvan/revanced-patches"
-integrations-source = "vuongvan/revanced-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "RevancedX"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "custom-branding-youtube-name custom-package-name custom-branding-icon-revancify-blue debugging materialyou premium-heading custom-branding-icon-afn-blue custom-branding-icon-revancify custom-branding-icon-afn-red return-youtube-dislike"                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""
+patches-version = "v2.186.8"
+integrations-version = "v0.114.8"
 
 [YouTube-Android7]
 enabled = true
