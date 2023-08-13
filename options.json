@@ -1,7 +1,26 @@
-[ {
-  "patchName" : "Theme",
-  "options" : [ {
-    "key" : "darkThemeBackgroundColor",
-    "value" : "#1f1f1f"
-  } ]
-} ]
+        
+[
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "YouTubePackageName",
+        "value": "YouTube X"
+      },
+      {
+        "key": "MusicPackageName",
+        "value": "YouTube MX"
+      }
+    ]
+  },
+  {
+    "patchName": "Theme",
+    "options": [
+      {
+        "key": "darkThemeBackgroundColor",
+        "value": "#1f1f1f"
+      }
+    ]
+  }
+]
+        
