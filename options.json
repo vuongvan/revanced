@@ -1,15 +1,11 @@
         
 [
   {
-    "patchName": "Custom package name",
+    "patchName": "Custom branding YouTube name",
     "options": [
       {
-        "key": "YouTubePackageName",
+        "key": "YouTubeAppName",
         "value": "YouTube X"
-      },
-      {
-        "key": "MusicPackageName",
-        "value": "YouTube MX"
       }
     ]
   },
