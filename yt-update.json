@@ -9,13 +9,13 @@
   "vanced": {
          "version": "18.23.35",
          "versionCode": 1538252224,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/27/youtube-revanced-v18.23.35-all.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/28/youtube-revanced-v18.23.35-all.apk",
          "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.115.1.apk  \nPatches: ReVanced/revanced-patches-2.187.0.jar  \n\n2023-08-02T23:38:56Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.8.apk  \nPatches: inotia00/revanced-patches-2.186.8.jar  \n\n2023-07-27T00:16:11Z\n---\nCLI: kitadai31/revanced-cli-2.23.0-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.5.apk  \nPatches: kitadai31/revanced-patches-2.160.5.jar  \n\n2023-08-05T05:59:45Z\n---   "
       },
   "music": {
          "version": "18.27.36",
-         "versionCode": 1538778560,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/27/youtube-revancedx-v18.27.36-all.apk",
+         "versionCode": ,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/28/",
          "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.27.36  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.115.1.apk  \nPatches: ReVanced/revanced-patches-2.187.0.jar  \n\n2023-08-02T23:38:56Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.114.8.apk  \nPatches: inotia00/revanced-patches-2.186.8.jar  \n\n2023-07-27T00:16:11Z\n---\nCLI: kitadai31/revanced-cli-2.23.0-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.5.apk  \nPatches: kitadai31/revanced-patches-2.160.5.jar  \n\n2023-08-05T05:59:45Z\n---   "
       },
   "microg": {
