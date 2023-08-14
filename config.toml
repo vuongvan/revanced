@@ -24,6 +24,18 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "custom-package-name custom-branding-icon-revancify-blue debugging materialyou premium-heading custom-branding-icon-afn-blue custom-branding-icon-revancify custom-branding-icon-afn-red return-youtube-dislike"                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""
 
+[YouTube-RExtended]
+enabled = true
+app-name = "YouTube"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "j-hc/revanced-cli"
+rv-brand = "ReX"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+excluded-patches = "custom-package-name custom-branding-icon-revancify-blue debugging materialyou premium-heading custom-branding-icon-afn-blue custom-branding-icon-revancify custom-branding-icon-afn-red return-youtube-dislike"                                                 # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = ""
+
 [YouTube-Android7]
 enabled = true
 app-name = "YouTube"
