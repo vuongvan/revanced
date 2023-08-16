@@ -11,7 +11,7 @@ Patches: ReVanced/revanced-patches-2.187.0.jar
 
 2023-08-02T23:38:56Z
 ---
-CLI: j-hc/revanced-cli-2.23.0-all.jar  
+CLI: inotia00/revanced-cli-2.22.2-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.116.2.apk  
 Patches: YT-Advanced/revanced-patches-2.188.0.jar  
 
