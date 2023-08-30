@@ -13,7 +13,7 @@ version = "auto"                                                      # 'auto', 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -25,7 +25,7 @@ excluded-patches = "custom-package-name custom-branding-icon-revancify-blue debu
 included-patches = ""
 
 [YouTube-RExtended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
@@ -38,7 +38,7 @@ included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [YouTube-Android7]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "kitadai31/revanced-patches-android6-7"
 integrations-source = "kitadai31/revanced-integrations"
