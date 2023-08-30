@@ -7,10 +7,10 @@
          "changelog": "Custom Build APK"
       },
   "vanced": {
-         "version": "18.23.35",
-         "versionCode": 1538252224,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/33/youtube-revanced-v18.23.35-all.apk",
-         "changelog": "YouTube: 18.23.35  \nYouTube-Extended: 18.30.37  \nYouTube-RExtended: 18.33.37  \nYouTube-Android7: 17.34.36  \n\nChangelog:\n---  \nCLI: j-hc/revanced-cli-2.23.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.116.2.apk  \nPatches: ReVanced/revanced-patches-2.188.1.jar  \n\n2023-08-27T02:44:32Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: YT-Advanced/revanced-integrations-0.117.2.apk  \nPatches: YT-Advanced/revanced-patches-2.189.0.jar  \n\n2023-08-25T14:11:07Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.115.1.apk  \nPatches: inotia00/revanced-patches-2.187.1.jar  \n\n2023-08-05T01:03:23Z\n---\nCLI: kitadai31/revanced-cli-2.23.0-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.5.apk  \nPatches: kitadai31/revanced-patches-2.160.5.jar  \n\n2023-08-05T05:59:45Z\n---   "
+         "version": "18.32.39",
+         "versionCode": 1539440064,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/35/youtube-revanced-v18.32.39-all.apk",
+         "changelog": "YouTube: 18.32.39  \nYouTube-Extended: 18.30.37  \nYouTube-RExtended: 18.33.40  \nYouTube-Android7: 17.34.36  \n\n[revanced-magisk-module]  \n\n---\nChangelog:  \nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: inotia00/revanced-integrations-0.115.1.apk  \nPatches: inotia00/revanced-patches-2.187.1.jar  \n\n2023-08-05T01:03:23Z\n2023-08-05T01:03:31Z\n---\nCLI: kitadai31/revanced-cli-2.23.0-all.jar  \nIntegrations: kitadai31/revanced-integrations-0.96.5.apk  \nPatches: kitadai31/revanced-patches-2.160.5.jar  \n\n2023-08-05T05:59:45Z\n2023-08-05T05:59:24Z\n---\nCLI: j-hc/revanced-cli-3.0.1-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.117.0.apk  \nPatches: ReVanced/revanced-patches-2.189.0.jar  \n\n2023-08-27T23:56:23Z\n2023-08-27T23:56:26Z\n---\nCLI: inotia00/revanced-cli-2.22.2-all.jar  \nIntegrations: YT-Advanced/revanced-integrations-0.117.3.apk  \nPatches: YT-Advanced/revanced-patches-2.189.1.jar  \n\n2023-08-29T13:48:05Z\n2023-08-29T13:50:28Z\n---   "
       },
   "music": {
          "version": "18.27.36",
