@@ -25,11 +25,11 @@ excluded-patches = "custom-package-name custom-branding-icon-revancify-blue debu
 included-patches = ""
 
 [YouTube-RExtended]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
-cli-source = "revanced/revanced-cli"
+cli-source = "YT-Advanced/revanced-cli"
 rv-brand = "ReX"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
