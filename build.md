@@ -1,5 +1,5 @@
 YouTube: 18.32.39  
-YouTube-RExtended: 18.34.37  
+YouTube-Extended: 18.34.37  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
