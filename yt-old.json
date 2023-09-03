@@ -6,7 +6,12 @@
          "url": "https://vuongvan.github.io/VancedManager/rvmn.apk",
          "changelog": "Custom Build APK"
       },
-
+  "vanced": {
+         "version": "18.32.39",
+         "versionCode": 1539440064,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/47/youtube-revanced-v18.32.39-all.apk",
+         "changelog": "YouTube: 18.32.39  \nYouTube-Extended: 18.34.37  \n\n[revanced-magisk-module]  \n\n---\nChangelog:  \nCLI: j-hc/revanced-cli-3.1.0-all.jar  \nIntegrations: ReVanced/revanced-integrations-0.117.1.apk  \nPatches: ReVanced/revanced-patches-2.190.0.jar  \n\n2023-09-03T03:43:56Z\n---\nCLI: YT-Advanced/revanced-cli-3.1.0-all.jar  \nIntegrations: YT-Advanced/revanced-integrations-0.118.0.apk  \nPatches: YT-Advanced/revanced-patches-2.190.0.jar  \n\n2023-09-01T06:52:00Z\n---   "
+      },
   "microg": {
          "version": "0.2.27.230755",
          "versionCode": 230755073,
