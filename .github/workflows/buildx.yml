@@ -169,20 +169,9 @@ jobs:
             YTRX_DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE}}/${{ steps.get_output.outputs.YTRX_OUTPUT }}"
             
             UPDATE_YT_JSON=$(get_update_rv_json "$YTRV_VER" "$YTRV_VER_CODE" "$YTRV_DLURL" "$CHANGELOG_JSON")
-            if [ -n "$YTRV_VER_CODE" ]; 
-            then
-             echo "$UPDATE_YT_JSON" >config-rv.json
-            else
-             echo "" >config-rv.json
-            fi
-            
+            echo "$UPDATE_YT_JSON" >config-rv.json
             UPDATE_YT_JSON=$(get_update_rx_json "$YTRX_VER" "$YTRX_VER_CODE" "$YTRX_DLURL" "$CHANGELOG_JSON")
-            if [ -n "$YTRX_VER_CODE" ]; 
-            then
-             echo "$UPDATE_YT_JSON" >config-rx.json
-            else
-             echo "" >config-rx.json
-            fi
+            echo "$UPDATE_YT_JSON" >config-rx.json
             
             UPDATE_YT_JSON=$(get_update_mn_json "$RM_VER_NAME" "$RM_VER_CODE")
             echo "$UPDATE_YT_JSON" >config-mn.json
