@@ -169,7 +169,7 @@ jobs:
             YTRX_DLURL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE}}/${{ steps.get_output.outputs.YTRX_OUTPUT }}"
             
             UPDATE_YT_JSON=$(get_update_rv_json "$YTRV_VER" "$YTRV_VER_CODE" "$YTRV_DLURL" "$CHANGELOG_JSON")
-            if [ -z "$YTRV_VER_CODE" ]; 
+            if [ -n "$YTRV_VER_CODE" ]; 
             then
              echo "$UPDATE_YT_JSON" >config-rv.json
             else
@@ -177,7 +177,7 @@ jobs:
             fi
             
             UPDATE_YT_JSON=$(get_update_rx_json "$YTRX_VER" "$YTRX_VER_CODE" "$YTRX_DLURL" "$CHANGELOG_JSON")
-            if [ -z "$YTRX_VER_CODE" ]; 
+            if [ -n "$YTRX_VER_CODE" ]; 
             then
              echo "$UPDATE_YT_JSON" >config-rx.json
             else
