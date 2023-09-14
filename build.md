@@ -1,5 +1,7 @@
 YouTube: 18.32.39  
 YouTube-Extended: 18.31.40  
+Music: 6.19.51  
+Music-Extended: 6.19.51  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
