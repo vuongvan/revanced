@@ -27,10 +27,10 @@ version="auto"
 
 [Music]
 enabled = true
-build-mode = "both"
+build-mode = "apk"
 excluded-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
+
 
 [Music-Extended]
 enabled = true
@@ -39,9 +39,8 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
 excluded-patches = "amoled custom-branding-icon-revancify-blue custom-package-name"
 
 
