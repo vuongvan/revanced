@@ -26,17 +26,22 @@ included-patches = ""
 version="auto"
 
 [Music]
-app-name = "Music"
 enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+build-mode = "both"
+excluded-patches = ""
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "both"
 
 [Music-Extended]
+enabled = true
 app-name = "Music"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 integrations-source = "inotia00/revanced-integrations"
-rv-brand = "MusicX"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "both"
 excluded-patches = "amoled custom-branding-icon-revancify-blue custom-package-name"
 
 
