@@ -26,6 +26,19 @@
         "value": "YouTube RV"
       }
     ]
+  },
+  {
+    "patchName": "Custom branding Music name",
+    "options": [
+      {
+        "key": "MusicShortName",
+        "value": "Music X"
+      },
+      {
+        "key": "MusicLongName",
+        "value": "Music X"
+      }
+    ]
   }
 ]
         
