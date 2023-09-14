@@ -26,10 +26,12 @@ included-patches = ""
 version="auto"
 
 [Music]
+app-name = "Music"
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 
 [Music-Extended]
+app-name = "Music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
