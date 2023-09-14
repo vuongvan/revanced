@@ -25,6 +25,20 @@ excluded-patches = "custom-package-name custom-branding-icon-revancify-blue debu
 included-patches = ""
 version="auto"
 
+[Music]
+enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+
+[Music-Extended]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "MusicX"
+excluded-patches = "amoled custom-branding-icon-revancify-blue custom-package-name"
+
+
+
 [YouTube-Android7]
 enabled = false
 app-name = "YouTube"
