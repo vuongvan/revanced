@@ -8,10 +8,10 @@ Music-Extended: 6.19.51
 ---
 Changelog:  
 CLI: inotia00/revanced-cli-3.1.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.117.4.apk  
-Patches: inotia00/revanced-patches-2.190.4.jar  
+Integrations: inotia00/revanced-integrations-0.117.8.apk  
+Patches: inotia00/revanced-patches-2.190.8.jar  
 
-2023-09-14T08:55:02Z
+2023-09-20T07:24:19Z
 ---
 CLI: j-hc/revanced-cli-3.2.0-all.jar  
 Integrations: ReVanced/revanced-integrations-0.117.1.apk  
