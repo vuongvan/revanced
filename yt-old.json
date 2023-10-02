@@ -9,18 +9,18 @@
   "vanced": {
          "version": "18.32.39",
          "versionCode": 1539440064,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/70/youtube-revanced-v18.32.39-all.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/72/youtube-revanced-v18.32.39-all.apk",
          "changelog": "YouTube: 18.32.39  
-YouTube-Extended: 18.32.39  
+YouTube-Extended: 18.33.40  
 Music: 6.21.51  
 Music-Extended: 6.21.51  
 
 
 
 Changelog:  
-CLI: inotia00/revanced-cli-3.1.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.117.15.apk  
-Patches: inotia00/revanced-patches-2.190.15.jar  
+CLI: inotia00/revanced-cli-3.1.4-all.jar  
+Integrations: inotia00/revanced-integrations-0.117.18.apk  
+Patches: inotia00/revanced-patches-2.190.18.jar  
 
 CLI: j-hc/revanced-cli-3.2.0-all.jar  
 Integrations: ReVanced/revanced-integrations-0.117.1.apk  
