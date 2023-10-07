@@ -1,24 +1,6 @@
         
 [
   {
-    "patchName": "Custom branding YouTube name",
-    "options": [
-      {
-        "key": "YouTubeAppName",
-        "value": "YouTube X"
-      }
-    ]
-  },
- {
-    "patchName": "Premium heading",
-    "options": [
-      {
-        "key": "usePremiumHeading",
-        "value": "YouTube X"
-      }
-    ]
-  },
-  {
     "patchName": "Theme",
     "options": [
       {
@@ -32,20 +14,16 @@
     "options": [
       {
         "key": "appName",
-        "value": "YouTube RV"
+        "value": "YouTube X"
       }
     ]
   },
   {
-    "patchName": "Custom branding Music name",
+    "patchName": "Premium heading",
     "options": [
       {
-        "key": "MusicShortName",
-        "value": "Music X"
-      },
-      {
-        "key": "MusicLongName",
-        "value": "Music X"
+        "key": "usePremiumHeading",
+        "value": "YouTube X"
       }
     ]
   }
