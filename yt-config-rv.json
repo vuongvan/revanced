@@ -1,13 +1,13 @@
   "vanced": {
-         "version": "18.38.44",
-         "versionCode": 1540236736,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/98/youtube-revanced-v18.38.44-all.apk",
-         "changelog": "YouTube: 18.38.44  
+         "version": "18.37.36",
+         "versionCode": 1540089280,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/104/youtube-revanced-v18.37.36-all.apk",
+         "changelog": "YouTube: 18.37.36  
 
 
 
 Changelog:  
-CLI: j-hc/revanced-cli-4.0.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.119.0.apk  
+CLI: j-hc/revanced-cli-4.0.1-all.jar  
+Integrations: ReVanced/revanced-integrations-0.119.1.apk  
 Patches: ReVanced/revanced-patches-2.193.0.jar  "
       },
