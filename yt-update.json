@@ -2,7 +2,7 @@
   "is_microg_broken": false,
   "manager": {
          "version": "2.6.5",
-         "versionCode": 230793,
+         "versionCode": 231011,
          "url": "https://vuongvan.github.io/VancedManager/rvmn.apk",
          "changelog": "Custom Build APK"
       },
@@ -20,9 +20,9 @@ Integrations: ReVanced/revanced-integrations-0.119.1.apk
 Patches: ReVanced/revanced-patches-2.193.0.jar  "
       },
   "music": {
-         "version": "18.33.40",
-         "versionCode": 1539573184,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/103/youtube-revancedx-v18.33.40-all.apk",
+         "version": "6.22.51",
+         "versionCode": 62251240,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/105/music-revancedx-v6.22.51-arm64-v8a.apk",
          "changelog": "Music-Extended: 6.22.51  
 YouTube-Extended: 18.33.40  
 
