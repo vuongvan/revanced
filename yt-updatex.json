@@ -9,9 +9,9 @@
   "vanced": {
          "version": "18.33.40",
          "versionCode": 1539573184,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/0/youtube-revancedx-v18.33.40-all.apk",
-         "changelog": "YouTube-Extended: 18.33.40  
-Music-Extended: 6.22.51  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/2.193.4/youtube-revancedx-v18.33.40-all.apk",
+         "changelog": "Music-Extended: 6.22.51  
+YouTube-Extended: 18.33.40  
 
 
 
@@ -23,9 +23,9 @@ Patches: inotia00/revanced-patches-2.193.4.jar  "
   "music": {
          "version": "6.22.51",
          "versionCode": 62251240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/0/music-revancedx-v6.22.51-arm64-v8a.apk",
-         "changelog": "YouTube-Extended: 18.33.40  
-Music-Extended: 6.22.51  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/2.193.4/music-revancedx-v6.22.51-arm64-v8a.apk",
+         "changelog": "Music-Extended: 6.22.51  
+YouTube-Extended: 18.33.40  
 
 
 
