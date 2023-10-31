@@ -7,36 +7,36 @@
          "changelog": "Custom Build APK"
       },
   "vanced": {
-         "version": "18.42.41",
-         "versionCode": 1540754880,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/2.195.8/youtube-revancedx-v18.42.41-all.apk",
+         "version": "18.40.34",
+         "versionCode": 1540478400,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/2.195.12/youtube-revancedx-v18.40.34-all.apk",
          "changelog": "Music-Extended: 6.25.53  
-YouTube-Extended: 18.42.41  
+YouTube-Extended: 18.40.34  
 
 
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.0.4-all.jar  
-Integrations: inotia00/revanced-integrations-0.120.8.apk  
-Patches: inotia00/revanced-patches-2.195.8.jar  
+Integrations: inotia00/revanced-integrations-0.120.12.apk  
+Patches: inotia00/revanced-patches-2.195.12.jar  
 
-2023-10-30T08:35:04Z"
+2023-10-31T11:37:16Z"
       },
   "music": {
          "version": "6.25.53",
          "versionCode": 62553240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/2.195.8/music-revancedx-v6.25.53-arm64-v8a.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/2.195.12/music-revancedx-v6.25.53-arm64-v8a.apk",
          "changelog": "Music-Extended: 6.25.53  
-YouTube-Extended: 18.42.41  
+YouTube-Extended: 18.40.34  
 
 
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.0.4-all.jar  
-Integrations: inotia00/revanced-integrations-0.120.8.apk  
-Patches: inotia00/revanced-patches-2.195.8.jar  
+Integrations: inotia00/revanced-integrations-0.120.12.apk  
+Patches: inotia00/revanced-patches-2.195.12.jar  
 
-2023-10-30T08:35:04Z"
+2023-10-31T11:37:16Z"
       },
   "microg": {
          "version": "0.2.27.230755",
