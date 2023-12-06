@@ -1,5 +1,5 @@
-YouTube-Extended: 18.45.43  
 Music-Extended: 6.29.57  
+YouTube-Extended: 18.45.43  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 
@@ -7,8 +7,8 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.3.1-all.jar  
-Integrations: inotia00/revanced-integrations-0.126.1.apk  
-Patches: inotia00/revanced-patches-2.203.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.203.1)  
+Integrations: inotia00/revanced-integrations-0.126.2.apk  
+Patches: inotia00/revanced-patches-2.203.2.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.203.2)  
 
-2023-12-05T20:05:52Z
+2023-12-06T05:29:55Z
