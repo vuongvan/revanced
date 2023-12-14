@@ -7,8 +7,8 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.3.1-all.jar  
-Integrations: inotia00/revanced-integrations-0.127.1.apk  
-Patches: inotia00/revanced-patches-2.204.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.204.1)  
+Integrations: inotia00/revanced-integrations-0.128.1.apk  
+Patches: inotia00/revanced-patches-2.205.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.205.1)  
 
-2023-12-09T07:50:46Z
+2023-12-13T18:30:10Z
