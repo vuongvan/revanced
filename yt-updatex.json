@@ -25,10 +25,6 @@ CLI: j-hc/revanced-cli-4.3.0-all.jar
 Integrations: ReVanced/revanced-integrations-1.1.0.apk  
 Patches: ReVanced/revanced-patches-3.2.0.jar  
 
-Skipped:  
-Patches: ReVanced/revanced-patches-3.2.0.jar  
-Patches: inotia00/revanced-patches-2.210.1.jar    
-
 2024-01-03T23:32:29Z"
       },
   "music": {
@@ -49,10 +45,6 @@ Patches: inotia00/revanced-patches-2.210.1.jar
 CLI: j-hc/revanced-cli-4.3.0-all.jar  
 Integrations: ReVanced/revanced-integrations-1.1.0.apk  
 Patches: ReVanced/revanced-patches-3.2.0.jar  
-
-Skipped:  
-Patches: ReVanced/revanced-patches-3.2.0.jar  
-Patches: inotia00/revanced-patches-2.210.1.jar    
 
 2024-01-03T23:32:29Z"
       },
