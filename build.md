@@ -1,5 +1,5 @@
-YouTube-Extended: 18.46.43  
 Music-Extended: 6.34.51  
+YouTube-Extended: 18.46.43  
 YouTube: 18.45.43  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
