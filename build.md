@@ -18,4 +18,8 @@ Integrations: ReVanced/revanced-integrations-1.1.0.apk
 Patches: ReVanced/revanced-patches-3.2.0.jar  
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v3.2.0)  
 
+Skipped:  
+Patches: ReVanced/revanced-patches-3.2.0.jar  
+Patches: inotia00/revanced-patches-2.210.1.jar    
+
 2024-01-03T23:32:29Z
