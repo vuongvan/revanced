@@ -1,7 +1,7 @@
-Music-RV: 6.34.51  
-Music-RX: 6.34.51  
 YouTube-RV: 18.45.43  
+Music-RV: 6.34.51  
 YouTube-RX: 18.45.43  
+Music-RX: 6.34.51  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
