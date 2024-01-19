@@ -9,8 +9,11 @@
   "vanced": {
          "version": "18.45.43",
          "versionCode": 1541152192,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/137/youtube-rx-v18.45.43-all.apk",
-         "changelog": "YouTube-RX: 18.45.43  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/138/youtube-rx-v18.45.43-all.apk",
+         "changelog": "YouTube-RV: 18.45.43  
+YouTube-RX: 18.45.43  
+Music-RX: 6.33.52  
+Music-RV: 6.35.51  
 
 
 
@@ -19,8 +22,31 @@ CLI: inotia00/revanced-cli-4.4.1-all.jar
 Integrations: inotia00/revanced-integrations-0.135.1.apk  
 Patches: inotia00/revanced-patches-2.215.1.jar  
 
-Skipped:  
-Patches: ReVanced/revanced-patches-3.2.0.jar    
+CLI: j-hc/revanced-cli-4.3.0-all.jar  
+Integrations: ReVanced/revanced-integrations-1.1.0.apk  
+Patches: ReVanced/revanced-patches-3.2.0.jar  
+
+2024-01-19T03:07:08Z"
+      },
+  "music": {
+         "version": "6.33.52",
+         "versionCode": 63352240,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/138/music-rx-v6.33.52-arm64-v8a.apk",
+         "changelog": "YouTube-RV: 18.45.43  
+YouTube-RX: 18.45.43  
+Music-RX: 6.33.52  
+Music-RV: 6.35.51  
+
+
+
+Changelog:  
+CLI: inotia00/revanced-cli-4.4.1-all.jar  
+Integrations: inotia00/revanced-integrations-0.135.1.apk  
+Patches: inotia00/revanced-patches-2.215.1.jar  
+
+CLI: j-hc/revanced-cli-4.3.0-all.jar  
+Integrations: ReVanced/revanced-integrations-1.1.0.apk  
+Patches: ReVanced/revanced-patches-3.2.0.jar  
 
 2024-01-19T03:07:08Z"
       },
