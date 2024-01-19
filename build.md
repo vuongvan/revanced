@@ -1,6 +1,6 @@
 YouTube-RV: 18.45.43  
-YouTube-RX: 18.45.43  
 Music-RX: 6.33.52  
+YouTube-RX: 18.45.43  
 Music-RV: 6.35.51  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
