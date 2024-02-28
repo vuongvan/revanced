@@ -1,5 +1,3 @@
-YouTube-RV: 19.04.37  
-Music-RV: 6.39.50  
 Music-RX: 6.33.52  
 YouTube-RX: 19.02.39  
 
@@ -9,14 +7,12 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
 Changelog:  
-CLI: j-hc/revanced-cli-4.3.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.3.2.apk  
-Patches: ReVanced/revanced-patches-4.2.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.2.0)
-
 CLI: inotia00/revanced-cli-4.4.1-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.144.2.apk  
-Patches: YT-Advanced/revanced-patches-2.220.6.jar  
-[Changelog](https://github.com/YT-Advanced/ReX-patches/releases/tag/v2.220.6)  
+Integrations: YT-Advanced/revanced-integrations-0.145.2.apk  
+Patches: YT-Advanced/revanced-patches-2.220.7.jar  
+[Changelog](https://github.com/YT-Advanced/ReX-patches/releases/tag/v2.220.7)  
+
+Skipped:  
+Patches: ReVanced/revanced-patches-4.2.0.jar    
 
 2024-01-26T20:21:57Z
