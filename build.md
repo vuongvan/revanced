@@ -1,5 +1,5 @@
-Music-RV: 6.41.58  
 YouTube-RV: 19.04.37  
+Music-RV: 6.41.58  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
@@ -15,4 +15,4 @@ Patches: ReVanced/revanced-patches-4.3.0.jar
 Skipped:  
 Patches: YT-Advanced/revanced-patches-2.220.8.jar    
 
-2024-03-02T12:20:26Z
+2024-03-04T08:59:03Z
