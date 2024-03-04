@@ -9,9 +9,9 @@
   "vanced": {
          "version": "19.04.37",
          "versionCode": 1544154560,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/152/youtube-rv-v19.04.37-all.apk",
-         "changelog": "YouTube-RV: 19.04.37  
-Music-RV: 6.41.58  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/153/youtube-rv-v19.04.37-all.apk",
+         "changelog": "Music-RV: 6.41.58  
+YouTube-RV: 19.04.37  
 
 
 
@@ -28,9 +28,9 @@ Patches: YT-Advanced/revanced-patches-2.220.8.jar
   "music": {
          "version": "6.41.58",
          "versionCode": 64158240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/152/music-rv-v6.41.58-arm64-v8a.apk",
-         "changelog": "YouTube-RV: 19.04.37  
-Music-RV: 6.41.58  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/153/music-rv-v6.41.58-arm64-v8a.apk",
+         "changelog": "Music-RV: 6.41.58  
+YouTube-RV: 19.04.37  
 
 
 
