@@ -9,7 +9,7 @@
   "vanced": {
          "version": "19.09.37",
          "versionCode": 1544809920,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/172/youtube-rv-v19.09.37-all.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/173/youtube-rv-v19.09.37-all.apk",
          "changelog": "YouTube-RV: 19.09.37  
 Music-RV: 6.46.52  
 
@@ -26,7 +26,7 @@ Patches: ReVanced/revanced-patches-4.6.0.jar
   "music": {
          "version": "6.46.52",
          "versionCode": 64652240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/172/music-rv-v6.46.52-arm64-v8a.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/173/music-rv-v6.46.52-arm64-v8a.apk",
          "changelog": "YouTube-RV: 19.09.37  
 Music-RV: 6.46.52  
 
@@ -41,7 +41,7 @@ Patches: ReVanced/revanced-patches-4.6.0.jar
 2024-04-02T00:26:02Z"
       },
   "microg": {
-         "version": "0.3.1.4.240913",
+         "version": "0.3.1.4.240913-hw",
          "versionCode": 240913008,
          "url": "",
          "changelog": "- Updated libs and upstream to 2022/08/22\n- Removed some unused resources\n- App signature changed"
