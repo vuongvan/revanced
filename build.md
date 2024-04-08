@@ -12,5 +12,5 @@ Integrations: ReVanced/revanced-integrations-1.7.0.apk
 Patches: ReVanced/revanced-patches-4.6.0.jar  
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.6.0)  
 
-2024-04-02T00:26:00Z
 2024-04-02T00:26:02Z
+2024-04-02T00:26:01Z
