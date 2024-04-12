@@ -1,6 +1,6 @@
 YouTube-RV: 19.09.37  
-Music-RV: 6.47.50  
-Music-RX: 6.47.50  
+Music-RV: 6.47.53  
+Music-RX: 6.47.53  
 YouTube-RX: 19.07.40  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
