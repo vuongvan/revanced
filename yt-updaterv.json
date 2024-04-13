@@ -9,17 +9,17 @@
   "vanced": {
          "version": "19.09.37",
          "versionCode": 1544809920,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/184/youtube-rv-v19.09.37-all.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/185/youtube-rv-v19.09.37-all.apk",
          "changelog": "YouTube-RV: 19.09.37  
 Music-RV: 6.47.53  
 Music-RX: 6.47.53  
-YouTube-RX: 19.13.37  
+YouTube-RX: 19.07.40  
 
 
   
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: rufusin/revanced-integrations-v0.150.2_m.apk  
-Patches: rufusin/revanced-patches-v2.223.2_m.jar  
+Integrations: YT-Advanced/revanced-integrations-0.148.4.apk  
+Patches: YT-Advanced/revanced-patches-2.220.10.jar  
 
 2024-04-02T00:26:02Z
 2024-04-02T00:26:01Z"
@@ -27,17 +27,17 @@ Patches: rufusin/revanced-patches-v2.223.2_m.jar
   "music": {
          "version": "6.47.53",
          "versionCode": 64753240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/184/music-rv-v6.47.53-arm64-v8a.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/185/music-rv-v6.47.53-arm64-v8a.apk",
          "changelog": "YouTube-RV: 19.09.37  
 Music-RV: 6.47.53  
 Music-RX: 6.47.53  
-YouTube-RX: 19.13.37  
+YouTube-RX: 19.07.40  
 
 
   
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: rufusin/revanced-integrations-v0.150.2_m.apk  
-Patches: rufusin/revanced-patches-v2.223.2_m.jar  
+Integrations: YT-Advanced/revanced-integrations-0.148.4.apk  
+Patches: YT-Advanced/revanced-patches-2.220.10.jar  
 
 2024-04-02T00:26:02Z
 2024-04-02T00:26:01Z"
