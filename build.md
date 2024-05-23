@@ -1,6 +1,4 @@
-Music-RV: 6.48.51  
 YouTube-RV: 19.11.43  
-Music-RX: 6.48.51  
 YouTube-RX: 19.16.39  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -13,5 +11,5 @@ Integrations: inotia00/revanced-integrations-1.8.2.apk
 Patches: inotia00/revanced-patches-4.7.1.jar  
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v4.7.1)  
 
-2024-04-21T01:50:09Z
-2024-04-21T01:50:07Z
+2024-05-21T01:42:34Z
+2024-05-21T01:42:33Z
