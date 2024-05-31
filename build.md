@@ -1,7 +1,8 @@
-Music-RV: 6.51.53  
+Boost-RV: 1.12.12  
 YouTube-RV: 19.11.43  
-Music-RX: 6.51.53  
+Music-RV: 6.51.53  
 YouTube-RX: 19.20.34  
+Music-RX: 6.51.53  
 YouTube-anddea: 19.20.34  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
