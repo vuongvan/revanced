@@ -9,21 +9,21 @@
   "vanced": {
          "version": "19.16.39",
          "versionCode": 1545731520,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/218/youtube-rv-v19.16.39-all.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/219/youtube-rv-v19.16.39-all.apk",
          "changelog": "Boost-RV: 1.12.12  
 YouTube-RV: 19.16.39  
 
 
   
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.10.0.apk  
-Patches: ReVanced/revanced-patches-4.9.0.jar  
+Integrations: ReVanced/revanced-integrations-1.11.0.apk  
+Patches: ReVanced/revanced-patches-4.10.0.jar  
 
 Skipped:  
 Patches: anddea/revanced-patches-2.225.0.jar    
 
-2024-06-02T17:44:32Z
-2024-06-02T17:44:31Z"
+2024-06-23T12:14:46Z
+2024-06-23T12:14:45Z"
       },
   "microg": {
          "version": "0.3.1.4.240913",
