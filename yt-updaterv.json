@@ -9,48 +9,42 @@
   "vanced": {
          "version": "19.16.39",
          "versionCode": 1545731520,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/223/youtube-rv-v19.16.39-all.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/224/youtube-rv-v19.16.39-all.apk",
          "changelog": "Boost-RV: 1.12.12  
-YouTube-RV: 19.16.39  
 Music-RV: 6.51.53  
-YouTube-anddea: 19.23.40  
-Music-anddea: 6.51.53  
+YouTube-RV: 19.16.39  
 
 
   
-CLI: inotia00/revanced-cli-4.6.1-all.jar  
-Integrations: anddea/revanced-integrations-0.153.0.apk  
-Patches: anddea/revanced-patches-2.226.0.jar  
-
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.11.0.apk  
-Patches: ReVanced/revanced-patches-4.10.0.jar  
+Integrations: ReVanced/revanced-integrations-1.11.1.apk  
+Patches: ReVanced/revanced-patches-4.11.0.jar  
 
-2024-06-23T12:14:46Z
-2024-06-23T12:14:45Z"
+Skipped:  
+Patches: anddea/revanced-patches-2.226.0.jar    
+
+2024-07-11T18:57:53Z
+2024-07-11T18:57:51Z"
       },
   "music": {
          "version": "6.51.53",
          "versionCode": 65153240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/223/music-rv-v6.51.53-arm64-v8a.apk",
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/224/music-rv-v6.51.53-arm64-v8a.apk",
          "changelog": "Boost-RV: 1.12.12  
-YouTube-RV: 19.16.39  
 Music-RV: 6.51.53  
-YouTube-anddea: 19.23.40  
-Music-anddea: 6.51.53  
+YouTube-RV: 19.16.39  
 
 
   
-CLI: inotia00/revanced-cli-4.6.1-all.jar  
-Integrations: anddea/revanced-integrations-0.153.0.apk  
-Patches: anddea/revanced-patches-2.226.0.jar  
-
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.11.0.apk  
-Patches: ReVanced/revanced-patches-4.10.0.jar  
+Integrations: ReVanced/revanced-integrations-1.11.1.apk  
+Patches: ReVanced/revanced-patches-4.11.0.jar  
 
-2024-06-23T12:14:46Z
-2024-06-23T12:14:45Z"
+Skipped:  
+Patches: anddea/revanced-patches-2.226.0.jar    
+
+2024-07-11T18:57:53Z
+2024-07-11T18:57:51Z"
       },
   "microg": {
          "version": "0.3.1.4.240913",
