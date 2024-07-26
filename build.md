@@ -1,8 +1,8 @@
 Boost-RV: 1.12.12  
-Music-RV: 6.51.53  
+Music-RV: 6.50.51  
 YouTube-RV: 19.16.39  
 YouTube-anddea: 19.16.39  
-Music-anddea: 6.51.53  
+Music-anddea: 6.50.51  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
