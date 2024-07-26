@@ -1,14 +1,19 @@
 [
   {
-    "patchName": "Custom branding name YouTube",
+    "patchName": "Custom branding name for YouTube",
     "options": [
       {
         "key": "AppName",
         "value": "YouTube X"
       }
     ]
-  },
-  {
+  },{
+    "patchName" : "Custom branding icon for YouTube",
+    "options" : [ {
+      "key" : "AppIcon",
+      "value" : "mmt"
+    } ]
+  },{
     "patchName": "Theme",
     "options": [
       {
