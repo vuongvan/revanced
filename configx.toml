@@ -81,7 +81,7 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 excluded-patches = "'Custom package name' 'Return YouTube Dislike' 'Custom branding heading' 'Custom branding icon YouTube' 'Alternative thumbnails'"
 included-patches = "'Enable song search' 'MaterialYou' 'Theme' 'Custom branding name YouTube'"
-#version="19.05.36"
+version="19.16.39"
 #cli-version = "v4.1"
 
 [Music-anddea]
