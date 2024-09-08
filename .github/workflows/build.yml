@@ -24,7 +24,10 @@ jobs:
         with:
           fetch-depth: 0
           submodules: true
-
+      - name: Rename config
+        run: |
+          cp -f configx.toml config.toml
+          
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
