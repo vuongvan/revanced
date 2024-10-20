@@ -7,48 +7,44 @@
          "changelog": "Custom Build APK"
       },
   "vanced": {
-         "version": "19.16.39",
-         "versionCode": 1545731520,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/256/youtube-rv-v19.16.39-all.apk",
+         "version": "19.34.42",
+         "versionCode": 1548096960,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/257/youtube-rv-v19.34.42-all.apk",
          "changelog": "Boost-RV: 1.12.12  
-Music-RV: 7.22.51  
-YouTube-anddea: 19.16.39  
-YouTube-RV: 19.16.39  
-Music-anddea: 6.50.51  
+Music-RV: 7.23.51  
+YouTube-RV: 19.34.42  
 
 
   
-Integrations: anddea/revanced-integrations-0.156.0.apk  
-Patches: anddea/revanced-patches-2.229.0.jar  
-
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.15.0.apk  
-Patches: ReVanced/revanced-patches-4.16.0.jar  
+Integrations: ReVanced/revanced-integrations-1.16.0.apk  
+Patches: ReVanced/revanced-patches-4.17.0.jar  
 
-2024-09-30T19:16:40Z
-2024-09-30T19:16:38Z"
+Skipped:  
+Patches: anddea/revanced-patches-2.229.0.jar    
+
+2024-10-20T01:43:37Z
+2024-10-20T01:43:35Z"
       },
   "music": {
-         "version": "7.22.51",
-         "versionCode": 72251240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/256/music-rv-v7.22.51-arm64-v8a.apk",
+         "version": "7.23.51",
+         "versionCode": 72351240,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/257/music-rv-v7.23.51-arm64-v8a.apk",
          "changelog": "Boost-RV: 1.12.12  
-Music-RV: 7.22.51  
-YouTube-anddea: 19.16.39  
-YouTube-RV: 19.16.39  
-Music-anddea: 6.50.51  
+Music-RV: 7.23.51  
+YouTube-RV: 19.34.42  
 
 
   
-Integrations: anddea/revanced-integrations-0.156.0.apk  
-Patches: anddea/revanced-patches-2.229.0.jar  
-
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.15.0.apk  
-Patches: ReVanced/revanced-patches-4.16.0.jar  
+Integrations: ReVanced/revanced-integrations-1.16.0.apk  
+Patches: ReVanced/revanced-patches-4.17.0.jar  
 
-2024-09-30T19:16:40Z
-2024-09-30T19:16:38Z"
+Skipped:  
+Patches: anddea/revanced-patches-2.229.0.jar    
+
+2024-10-20T01:43:37Z
+2024-10-20T01:43:35Z"
       },
   "microg": {
          "version": "0.3.1.4.240913",
