@@ -1,5 +1,5 @@
 Boost-RV: 1.12.12  
-Music-RV: 7.23.51  
+Music-RV: 7.24.51  
 YouTube-RV: 19.34.42  
 YouTube-anddea: 19.16.39  
 Music-anddea: 6.50.51  
