@@ -108,7 +108,7 @@ get_rv_prebuilts() {
 	done
 	echo
 
-	if [ "$integs_file" ]; then
+	if [ "$integs_file" ] && [ "$REMOVE_RV_INTEGRATIONS_CHECKS" = true ]; then
 		if ! (
 			mkdir -p "${integs_file}-zip" || return 1
 			unzip -qo "${integs_file}" -d "${integs_file}-zip" || return 1
@@ -121,7 +121,6 @@ get_rv_prebuilts() {
 			echo >&2 "Patching revanced-integrations failed"
 		fi
 		rm -r "${integs_file}-zip" || :
-
 	fi
 }
 
@@ -600,7 +599,7 @@ MODULE_ARCH=$ma" >"$1/config"
 module_prop() {
 	echo "id=${1}
 name=${2}
-version=v${3}
+version=v${3} (${NEXT_VER_CODE})
 versionCode=${NEXT_VER_CODE}
 author=j-hc
 description=${4}" >"${6}/module.prop"
