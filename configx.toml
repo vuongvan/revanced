@@ -5,7 +5,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube-RV]
 enabled = true
 app-name = "YouTube"
-build-mode = "apk"
+build-mode = "both"
 excluded-patches = "'Return YouTube Dislike' 'Premium heading' 'Alternative thumbnails'"
 included-patches = "'Enable slide to seek' 'Custom branding'"
 #version="19.16.39"
