@@ -9,26 +9,18 @@
   "vanced": {
          "version": "19.16.39",
          "versionCode": 1545731520,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/264/youtube-rx-v19.16.39-all.apk",
-         "changelog": "Boost-RV: 1.12.12                     
-YouTube-RV: 19.34.42  
-Music-RV: 7.25.52                     
-YouTube-RX: 19.16.39  
-YouTube-anddea: 19.16.39  
-Music-anddea: 6.50.51  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/266/youtube-rx-v19.16.39-all.apk",
+         "changelog": "YouTube-RX: 19.16.39  
 
 
   
-Integrations: anddea/revanced-integrations-0.157.0.apk  
-Patches: anddea/revanced-patches-2.230.0.jar  
-
 CLI: inotia00/revanced-cli-4.6.2-all.jar  
-Integrations: inotia00/revanced-integrations-1.15.1.apk  
-Patches: inotia00/revanced-patches-4.15.1.jar  
+Integrations: inotia00/revanced-integrations-1.16.1.apk  
+Patches: inotia00/revanced-patches-4.16.1.jar  
 
-CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.16.0.apk  
+Skipped:  
 Patches: ReVanced/revanced-patches-4.17.0.jar  
+Patches: anddea/revanced-patches-2.231.0.jar    
 
 2024-10-20T01:43:37Z
 2024-10-20T01:43:35Z"
@@ -36,7 +28,7 @@ Patches: ReVanced/revanced-patches-4.17.0.jar
   "microg": {
          "version": "0.3.1.4.240913",
          "versionCode": 240913008,
-         "url": "https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk",
+         "url": "",
          "changelog": "- Updated libs and upstream to 2022/08/22\n- Removed some unused resources\n- App signature changed"
       }
 }
