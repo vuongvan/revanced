@@ -39,7 +39,7 @@ rv-brand = "RV"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
 
 [YouTube-RX]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -70,7 +70,7 @@ version="6.51.53"
 excluded-patches = "'Amoled' 'Change start page' 'Custom branding icon YouTube Music' 'Custom package name' 'Return YouTube Dislike'"
 
 [YouTube-anddea]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
@@ -87,7 +87,7 @@ arch = "arm64-v8a"
 #cli-version = "v4.1"
 
 [Music-anddea]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
