@@ -7,58 +7,34 @@
          "changelog": "Custom Build APK"
       },
   "vanced": {
-         "version": "19.34.42",
-         "versionCode": 1548096960,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/264/youtube-rv-v19.34.42-all.apk",
-         "changelog": "Boost-RV: 1.12.12                     
-YouTube-RV: 19.34.42  
-Music-RV: 7.25.52                     
-YouTube-RX: 19.16.39  
-YouTube-anddea: 19.16.39  
-Music-anddea: 6.50.51  
+         "version": "19.43.41",
+         "versionCode": 1549274560,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/267/youtube-rv-v19.43.41-all.apk",
+         "changelog": "Boost-RV: 1.12.12  
+YouTube-RV: 19.43.41  
+Music-RV: 7.27.52  
 
 
   
-Integrations: anddea/revanced-integrations-0.157.0.apk  
-Patches: anddea/revanced-patches-2.230.0.jar  
+CLI: j-hc/revanced-cli-5.0.0-all.jar  
+Patches: ReVanced/patches-5.0.2.rvp    
 
-CLI: inotia00/revanced-cli-4.6.2-all.jar  
-Integrations: inotia00/revanced-integrations-1.15.1.apk  
-Patches: inotia00/revanced-patches-4.15.1.jar  
-
-CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.16.0.apk  
-Patches: ReVanced/revanced-patches-4.17.0.jar  
-
-2024-10-20T01:43:37Z
-2024-10-20T01:43:35Z"
+2024-11-12T13:49:15Z"
       },
   "music": {
-         "version": "7.25.52",
-         "versionCode": 72552240,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/264/music-rv-v7.25.52-arm64-v8a.apk",
-         "changelog": "Boost-RV: 1.12.12                     
-YouTube-RV: 19.34.42  
-Music-RV: 7.25.52                     
-YouTube-RX: 19.16.39  
-YouTube-anddea: 19.16.39  
-Music-anddea: 6.50.51  
+         "version": "7.27.52",
+         "versionCode": 72752240,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/267/music-rv-v7.27.52-arm64-v8a.apk",
+         "changelog": "Boost-RV: 1.12.12  
+YouTube-RV: 19.43.41  
+Music-RV: 7.27.52  
 
 
   
-Integrations: anddea/revanced-integrations-0.157.0.apk  
-Patches: anddea/revanced-patches-2.230.0.jar  
+CLI: j-hc/revanced-cli-5.0.0-all.jar  
+Patches: ReVanced/patches-5.0.2.rvp    
 
-CLI: inotia00/revanced-cli-4.6.2-all.jar  
-Integrations: inotia00/revanced-integrations-1.15.1.apk  
-Patches: inotia00/revanced-patches-4.15.1.jar  
-
-CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.16.0.apk  
-Patches: ReVanced/revanced-patches-4.17.0.jar  
-
-2024-10-20T01:43:37Z
-2024-10-20T01:43:35Z"
+2024-11-12T13:49:15Z"
       },
   "microg": {
          "version": "0.3.1.4.240913",
