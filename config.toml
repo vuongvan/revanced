@@ -12,7 +12,7 @@ patcher-args = """\
   -OdarkThemeBackgroundColor=#FF1f1f1f \
   -Oanother-option=value \
   """
-#version="19.16.39"
+version="19.43.41"
 rv-brand = "RV"
 #cli-version = "v4.4.1"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
