@@ -9,8 +9,24 @@
   "vanced": {
          "version": "19.43.41",
          "versionCode": 1549274560,
-         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/272/youtube-rv-v19.43.41-all.apk",
-         "changelog": "YouTube-RV: 19.43.41  
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/273/youtube-rv-v19.43.41-all.apk",
+         "changelog": "Music-RV: 7.27.53  
+YouTube-RV: 19.43.41  
+Boost-RV: 1.12.12  
+
+
+  
+CLI: j-hc/revanced-cli-5.0.0-all.jar  
+Patches: ReVanced/patches-5.0.2.rvp    
+
+2024-11-12T13:49:15Z"
+      },
+  "music": {
+         "version": "7.27.53",
+         "versionCode": 72753240,
+         "url": "https://github.com/vuongvan/revanced-magisk-module/releases/download/273/music-rv-v7.27.53-arm64-v8a.apk",
+         "changelog": "Music-RV: 7.27.53  
+YouTube-RV: 19.43.41  
 Boost-RV: 1.12.12  
 
 
