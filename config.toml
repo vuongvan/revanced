@@ -5,7 +5,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube-RV]
 enabled = true
 app-name = "YouTube"
-build-mode = "apk"
+build-mode = "both"
 excluded-patches = "'Custom branding' 'Return YouTube Dislike' 'Premium heading' 'Alternative thumbnails'"
 included-patches = "'Enable slide to seek'"
 patcher-args = """\
@@ -20,7 +20,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 
 [Music-RV]
-enabled = false
+enabled = true
 app-name = "Music"
 rv-brand = "RV"
 build-mode = "apk"
@@ -34,7 +34,7 @@ excluded-patches = "'Amoled' 'Change start page' 'Custom branding icon YouTube M
 #cli-source = "Revanced/revanced-cli"
 
 [Boost-RV]
-enabled = false
+enabled = true
 app-name = "Boost"
 build-mode = "apk"
 version = "auto"
