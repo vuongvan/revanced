@@ -9,7 +9,7 @@ build-mode = "apk"
 excluded-patches = "'Custom branding' 'Return YouTube Dislike' 'Premium heading' 'Alternative thumbnails'"
 included-patches = "'Enable slide to seek'"
 patcher-args = """\
-  -e 'Theme' -OdarkThemeBackgroundColor=#1f1f1f \
+  -e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F \
   """
 version="19.43.41"
 rv-brand = "RV"
