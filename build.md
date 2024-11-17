@@ -1,6 +1,8 @@
-YouTube-RV: 19.43.41  
-Boost-RV: 1.12.12  
-Music-RV: 7.27.53  
+Black-rv: 19.43.41  
+Dark-rv: 19.43.41  
+Darker-MaterialYou-rv: 19.43.41  
+Grey-rv: 19.43.41  
+MaterialYou-rv: 19.43.41  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
