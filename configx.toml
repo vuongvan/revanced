@@ -37,7 +37,7 @@ excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' '
 [Dark-rv]
 app-name = "daark"
 cli-source = "j-hc/revanced-cli"
-build-mode = "apk"
+build-mode = "both"
 rv-brand = "rv"
 riplib = true
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F"
@@ -48,7 +48,7 @@ excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' '
 [Grey-rv]
 app-name = "grrey"
 cli-source = "j-hc/revanced-cli"
-build-mode = "both"
+build-mode = "apk"
 rv-brand = "rv"
 riplib = true
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF212121"
