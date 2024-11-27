@@ -68,3 +68,6 @@ build-mode = "apk"
 version = "auto"
 rv-brand = "RV"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
+
+[MyExpense]
+uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
