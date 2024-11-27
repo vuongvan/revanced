@@ -60,3 +60,11 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 apkmirror-arch = "arm64-v8a"
+
+[Boost-RV]
+enabled = true
+app-name = "Boost"
+build-mode = "apk"
+version = "auto"
+rv-brand = "RV"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
