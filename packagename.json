@@ -1,0 +1,20 @@
+[
+  {
+    "patchName": "GmsCore support",
+    "options": [
+      {
+        "key": "PackageNameYouTube",
+        "value": "app.rvx.android.youtube"
+      }
+    ]
+  },
+  {
+    "patchName": "Change version code",
+    "options": [
+      {
+        "key": "ChangeVersionCode",
+        "value": true
+      }
+    ]
+  }
+]
