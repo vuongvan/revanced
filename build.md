@@ -1,10 +1,10 @@
-Darker-MaterialYou-rvx: 19.16.39  
-Black-rvx: 19.16.39  
 MaterialYou-rvx: 19.16.39  
+Black-rvx: 19.16.39  
 Dark-rvx: 19.16.39  
+Darker-MaterialYou-rvx: 19.16.39  
 Grey-rvx: 19.16.39  
-BlackA6-7: 17.34.36  
 DarkA6-7: 17.34.36  
+BlackA6-7: 17.34.36  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
