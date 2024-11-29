@@ -15,7 +15,7 @@ apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'MaterialYou' 'Change version code'"
-excluded-patches = "'Theme' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons'"
+excluded-patches = "'Theme' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [Darker-MaterialYou-rvx]
 app-name = "da-rker-matterialyou"
@@ -28,7 +28,7 @@ apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'MaterialYou' 'Theme' 'Change version code'"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [Black-rvx]
 app-name = "og-black"
@@ -41,7 +41,7 @@ apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Theme' 'Change version code'"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [Dark-rvx]
 app-name = "og-dark"
@@ -54,7 +54,7 @@ apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code'"
-excluded-patches = "'Theme' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons'"
+excluded-patches = "'Theme' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [Grey-rvx]
 app-name = "grey"
@@ -67,7 +67,7 @@ apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Theme' 'Change version code'"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [BlackA6-7]
 app-name = "bllack"
