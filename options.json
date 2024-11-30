@@ -12,7 +12,11 @@
     "options" : [ {
       "key" : "AppIcon",
       "value" : "youtube"
-    } ]
+    },
+    {
+      "key" : "RestoreOldSplashIcon",
+      "value" : "true"
+    }]
   },{
     "patchName": "Theme",
     "options": [
