@@ -69,4 +69,4 @@ arch = "arm64-v8a"
 #version="6.50.51"
 include-stock = true
 included-patches = "'Change version code'"
-excluded-patches = "'Amoled' 'Change start page' 'Custom branding icon YouTube Music' 'Custom package name' 'Return YouTube Dislike' 'Visual preferences icons for YouTube Music'"
+excluded-patches = "'Amoled' 'Change start page' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom package name' 'Return YouTube Dislike' 'Visual preferences icons for YouTube Music'"
