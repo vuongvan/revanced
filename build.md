@@ -1,6 +1,6 @@
 Black-rv: 19.46.42  
 Boost-RV: 1.12.12  
-Dark-rv: 19.46.42  
+Dark-rv: 19.16.39  
 MyExpense: 3.4.9  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
