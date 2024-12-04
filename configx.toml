@@ -19,7 +19,7 @@ cli-source = "j-hc/revanced-cli"
 build-mode = "both"
 rv-brand = "rv"
 riplib = true
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -OlightThemeBackgroundColor=#FF1F1F1F --rip-lib armeabi-v7a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
