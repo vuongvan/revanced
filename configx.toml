@@ -24,7 +24,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 apkmirror-arch = "arm64-v8a"
-version = "19.16.39"
+#version = "19.16.39"
 
 [Boost-RV]
 enabled = true
