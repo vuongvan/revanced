@@ -49,7 +49,7 @@ apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code'"
-excluded-patches = "'Theme' 'Custom branding icon YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [Dark-rvx]
 app-name = "og-dark"
