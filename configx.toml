@@ -57,12 +57,12 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding iconYouTube' -OAppIcon=youtube -OrestoreOldSplashAnimation=true --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding icon for YouTube' -OAppIcon=youtube -OrestoreOldSplashAnimation=true --rip-lib armeabi-v7a"
 apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code'"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
+excluded-patches = "'Custom branding icon foYouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
 
 [Music-rvx]
 enabled = true
