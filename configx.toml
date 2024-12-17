@@ -63,7 +63,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code'"
 excluded-patches = "'Custom branding icon foYouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails' 'Visual preferences icons for YouTube'"
-patches-version = "v5.1.1-dev.2"
+#patches-version = "v5.1.1-dev.2"
 
 [Music-rvx]
 enabled = true
