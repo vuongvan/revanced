@@ -1,6 +1,6 @@
 {
-  "version": "v19.44.39 (patches: 5.2.2)",
-  "versionCode": 317,
-  "zipUrl": "https://github.com/vuongvan/revanced/releases/download/317/og-dark-rvx-magisk-v19.44.39-all.zip",
+  "version": "v19.44.39 (patches: 5.3.1)",
+  "versionCode": 319,
+  "zipUrl": "https://github.com/vuongvan/revanced/releases/download/319/og-dark-rvx-magisk-v19.44.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/vuongvan/revanced/update/build.md"
 }
