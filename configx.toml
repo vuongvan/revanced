@@ -36,7 +36,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
 
 [MyExpense]
 uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
-
+enabled = false
 
 [Black-rvx]
 app-name = "og-black"
