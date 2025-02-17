@@ -34,6 +34,20 @@ version = "auto"
 rv-brand = "RV"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
 
+[GooglePhotos]
+build-mode = "apk"
+arch = "both"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+
+[GoogleNews]
+build-mode = "apk"
+#arch = "both"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-news/"
+#uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+
 [MyExpense]
 uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
 enabled = false
