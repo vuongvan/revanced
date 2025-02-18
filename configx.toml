@@ -37,7 +37,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
 [GooglePhotos]
 build-mode = "apk"
 arch = "both"
-version = "7.1.0.677535587"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
