@@ -32,10 +32,11 @@ app-name = "Boost"
 build-mode = "apk"
 version = "auto"
 rv-brand = "RV"
-patcher-args = "-Oclient-id=e1toDqv8Jgg9wIqwcS71Eg "
+patcher-args = "-e 'Spoof client' -Oclient-id=e1toDqv8Jgg9wIqwcS71Eg "
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
 
 [GooglePhotos]
+enabled = false
 build-mode = "apk"
 arch = "both"
 version = "auto"
@@ -43,6 +44,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [GoogleNews]
+enabled = false
 build-mode = "apk"
 #arch = "both"
 version = "auto"
