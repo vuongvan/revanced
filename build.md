@@ -3,8 +3,7 @@ Black-rvx: 19.44.39
 Boost-RV: 1.12.12  
 Dark-rv: 19.47.53  
 Dark-rvx: 19.44.39  
-GoogleNews: 5.108.0.644447823  
-GooglePhotos (arm64-v8a): 7.19.0.733486757  
+Music-rvx: 7.16.53  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
