@@ -1,6 +1,6 @@
-Black-rv: 19.47.53  
+Black-rv: 20.07.39  
 Boost-RV: 1.12.12  
-Dark-rv: 19.47.53  
+Dark-rv: 20.07.39  
 GooglePhotos: 7.1.0.677535587  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -9,8 +9,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.16.1.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.16.1)  
+Patches: ReVanced/patches-5.18.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.18.0)  
 
 Skipped:  
-Patches: inotia00/patches-5.5.1.rvp      
+Patches: inotia00/patches-5.5.1.rvp        
