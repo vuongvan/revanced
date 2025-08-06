@@ -1,15 +1,16 @@
-Black-rvx: 19.47.53  
-Dark-rvx: 19.47.53  
-Music-rvx: 8.12.53  
+Black-rv: 20.13.41  
+Boost-RV: 1.12.12  
+Dark-rv: 20.13.41  
+GooglePhotos: 7.1.0.677535587  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-CLI: inotia00/revanced-cli-5.0.1-all.jar  
-Patches: inotia00/patches-5.8.1.rvp  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.8.1)  
+CLI: j-hc/revanced-cli-5.0.0-all.jar  
+Patches: ReVanced/patches-5.33.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.33.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.32.0.rvp    
+Patches: inotia00/patches-5.8.1.rvp    
