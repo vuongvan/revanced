@@ -27,11 +27,12 @@ apkmirror-arch = "arm64-v8a"
 #version = "19.16.39"
 
 [Music-rv]
-build-mode = "both"
-arch = "both"
+build-mode = "apk"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 
 [Boost-RV]
 enabled = true
