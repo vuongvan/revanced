@@ -1,6 +1,6 @@
 {
-  "version": "v20.14.43 (patches 5.43.1)",
-  "versionCode": 372,
-  "zipUrl": "https://github.com/vuongvan/revanced/releases/download/372/daark-rv-magisk-v20.14.43-all.zip",
+  "version": "v20.14.43 (patches 5.44.0)",
+  "versionCode": 373,
+  "zipUrl": "https://github.com/vuongvan/revanced/releases/download/373/daark-rv-magisk-v20.14.43-all.zip",
   "changelog": "https://raw.githubusercontent.com/vuongvan/revanced/update/build.md"
 }
