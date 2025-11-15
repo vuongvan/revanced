@@ -1,6 +1,6 @@
 {
-  "version": "v20.05.46 (patches 5.12.1)",
-  "versionCode": 372,
-  "zipUrl": "https://github.com/vuongvan/revanced/releases/download/372/og-dark-rvx-magisk-v20.05.46-all.zip",
+  "version": "v20.05.46 (patches 5.13.1)",
+  "versionCode": 376,
+  "zipUrl": "https://github.com/vuongvan/revanced/releases/download/376/og-dark-rvx-magisk-v20.05.46-all.zip",
   "changelog": "https://raw.githubusercontent.com/vuongvan/revanced/update/build.md"
 }
