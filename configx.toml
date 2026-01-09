@@ -15,12 +15,13 @@ apkmirror-arch = "arm64-v8a"
 
 [Black-mp]
 app-name = "blaack"
-cli-source = "MorpheApp/morphe-cli"
+cli-source = "j-hc/revanced-cli"
 patches-source = "MorpheApp/morphe-patches"
 integrations-source = "MorpheApp/morphe-integrations"
 build-mode = "apk"
+riplib = true
 rv-brand = "mp"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black  --rip-lib armeabi-v7a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
