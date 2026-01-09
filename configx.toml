@@ -15,7 +15,7 @@ apkmirror-arch = "arm64-v8a"
 
 [Black-mp]
 app-name = "blaack"
-cli-source = "j-hc/revanced-cli"
+cli-source = "inotia00/revanced-cli"
 patches-source = "MorpheApp/morphe-patches"
 integrations-source = "MorpheApp/morphe-integrations"
 build-mode = "apk"
