@@ -2,6 +2,7 @@ parallel-jobs = 1
 enable-magisk-update = true
 
 [Black-rv]
+enabled = false
 app-name = "blaack"
 cli-source = "j-hc/revanced-cli"
 build-mode = "apk"
@@ -14,6 +15,7 @@ excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' '
 apkmirror-arch = "arm64-v8a"
 
 [Black-mp]
+enabled = false
 app-name = "blaack"
 cli-source = "MorpheApp/morphe-cli"
 patches-source = "MorpheApp/morphe-patches"
@@ -90,8 +92,8 @@ patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'C
 apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Change version code'"
-excluded-patches = "'Custom branding icon forYouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
+included-patches = "'Change version code' 'Custom branding name for YouTube'"
+excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
 
 [Dark-rvx]
 app-name = "og-dark"
@@ -103,8 +105,8 @@ patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom brand
 apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Change version code'"
-excluded-patches = "'Custom branding icon forYouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
+included-patches = "'Change version code' 'Custom branding name for YouTube'"
+excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
 #patches-version = "v5.1.1-dev.2"
 
 [Music-rvx]
