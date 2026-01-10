@@ -28,6 +28,7 @@ excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' '
 apkmirror-arch = "arm64-v8a"
 
 [Dark-rv]
+enabled = false
 app-name = "daark"
 cli-source = "j-hc/revanced-cli"
 build-mode = "both"
@@ -41,6 +42,7 @@ apkmirror-arch = "arm64-v8a"
 #version = "19.16.39"
 
 [Music-rv]
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -49,7 +51,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 
 [Boost-RV]
-enabled = true
+enabled = false
 app-name = "Boost"
 build-mode = "apk"
 version = "auto"
@@ -58,7 +60,7 @@ patcher-args = "-e 'Spoof client' -Oclient-id=e1toDqv8Jgg9wIqwcS71Eg "
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
 
 [GooglePhotos]
-enabled = true
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 version = "7.1.0.677535587"
@@ -84,7 +86,7 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X' --rip-lib armeabi-v7a"
 apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -97,16 +99,16 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
-patcher-args = "--legacy-options options.json -e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X' --rip-lib armeabi-v7a"
 apkmirror-arch = "arm64-v8a"
-build-mode = "both"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code'"
 excluded-patches = "'Custom branding icon forYouTube' 'Custom branding name for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
 #patches-version = "v5.1.1-dev.2"
 
 [Music-rvx]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
