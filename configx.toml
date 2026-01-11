@@ -83,9 +83,9 @@ uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
 enabled = false
 
 [Black-rvx]
-enabled = false
+enabled = true
 app-name = "og-black"
-patches-source = "inotia00/revanced-patches"
+patches-source = "anddea/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
@@ -97,9 +97,9 @@ included-patches = "'Change version code' 'Custom branding name for YouTube'"
 excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
 
 [Dark-rvx]
-enabled = false
+enabled = true
 app-name = "og-dark"
-patches-source = "inotia00/revanced-patches"
+patches-source = "anddea/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
@@ -114,7 +114,7 @@ excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube
 [Music-rvx]
 enabled = false
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
+patches-source = "anddea/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
