@@ -26,7 +26,7 @@ rv-brand = "mp"
 patcher-args = "-e 'Custom branding' -OcustomName='YouTube Morphe'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Custom branding' 'Change version code' 'Enable slide to seek'"
-excluded-patches = "'Theme' 'Change header' 'XCustom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
+excluded-patches = "'Theme' 'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 apkmirror-arch = "arm64-v8a"
 
 [Dark-rv]
