@@ -23,7 +23,7 @@ patches-source = "MorpheApp/morphe-patches"
 build-mode = "apk"
 riplib = true
 rv-brand = "mp"
-patcher-args = "-e 'Custom branding' -OcustomName='YouTube Morphe'"
+patcher-args = "-e 'Custom branding' -OcustomName='YouTube X'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Custom branding' 'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Theme' 'Change header' 'XCustom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
