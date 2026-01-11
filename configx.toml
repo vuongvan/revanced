@@ -19,7 +19,7 @@ enabled = true
 app-name = "blaack"
 cli-source = "MorpheApp/morphe-cli"
 patches-source = "MorpheApp/morphe-patches"
-integrations-source = "MorpheApp/morphe-integrations"
+#integrations-source = "MorpheApp/morphe-integrations"
 build-mode = "apk"
 riplib = true
 rv-brand = "mp"
@@ -83,6 +83,7 @@ uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
 enabled = false
 
 [Black-rvx]
+enabled = false
 app-name = "og-black"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -96,6 +97,7 @@ included-patches = "'Change version code' 'Custom branding name for YouTube'"
 excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
 
 [Dark-rvx]
+enabled = false
 app-name = "og-dark"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -110,7 +112,7 @@ excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube
 #patches-version = "v5.1.1-dev.2"
 
 [Music-rvx]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
