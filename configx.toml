@@ -4,7 +4,7 @@ enable-magisk-update = true
 [Black-rv]
 enabled = true
 app-name = "blaack"
-cli-source = "j-hc/revanced-cli"
+cli-source = "ReVanced/revanced-cli"
 build-mode = "apk"
 rv-brand = "rv"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black --rip-lib armeabi-v7a"
@@ -54,7 +54,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 [Dark-rv]
 enabled = false
 app-name = "daark"
-cli-source = "j-hc/revanced-cli"
+cli-source = "ReVanced/revanced-cli"
 build-mode = "both"
 rv-brand = "rv"
 riplib = true
