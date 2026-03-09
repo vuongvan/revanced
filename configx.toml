@@ -2,13 +2,12 @@ parallel-jobs = 1
 enable-magisk-update = true
 
 [Black-rv]
-enabled = false
+enabled = true
 app-name = "blaack"
 cli-source = "ReVanced/revanced-cli"
 build-mode = "apk"
 rv-brand = "rv"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black --rip-lib armeabi-v7a"
-riplib = true
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Theme''Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
@@ -26,14 +25,13 @@ build-mode = "apk"
 riplib = true
 rv-brand = "mp"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding' -OcustomName='YouTube X'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Custom branding' 'Change version code' 'Enable slide to seek'"
 excluded-patches = "'XTheme' 'Change header' 'XCustom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 apkmirror-arch = "arm64-v8a"
-version = "20.44.48"
-direct-dlurl = "https://github.com/vuongvan/adguard/releases/download/v1.0.0/com.google.android.youtube-20.44.48-all.apk"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+
 
 [Black-mp]
 enabled = true
@@ -45,14 +43,12 @@ build-mode = "apk"
 riplib = true
 rv-brand = "mp"
 patcher-args = "-e 'Custom branding' -OcustomName='YouTube X'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Custom branding' 'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Theme' 'Change header' 'XCustom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 apkmirror-arch = "arm64-v8a"
-version = "20.44.48"
-direct-dlurl = "https://github.com/vuongvan/adguard/releases/download/v1.0.0/com.google.android.youtube-20.44.48-all.apk"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Dark-rv]
 enabled = false
@@ -61,7 +57,7 @@ cli-source = "ReVanced/revanced-cli"
 build-mode = "both"
 rv-brand = "rv"
 riplib = true
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change version code' 'Enable slide to seek'"
 excluded-patches = "'Change header' 'Custom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
@@ -110,13 +106,13 @@ uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
 enabled = false
 
 [Black-rvx]
-enabled = false
+enabled = true
 app-name = "og-black"
 patches-source = "anddea/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X' --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X'"
 apkmirror-arch = "arm64-v8a"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -126,13 +122,13 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Dark-rvx]
-enabled = false
+enabled = true
 app-name = "og-dark"
 patches-source = "anddea/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "rvx"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X' --rip-lib armeabi-v7a"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF1F1F1F -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X'"
 apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
