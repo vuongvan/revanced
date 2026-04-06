@@ -16,4 +16,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # Replace 'main' with your default branch name if it's 'master'
-        run: gh repo sync ${{ github.repository }} -b main
+        run: gh repo sync ${{ github.repository }} -b rvx
