@@ -37,20 +37,29 @@ pmex() {
 	return $RET
 }
 
-if ! pmex path "$PKG_NAME" >&2; then
-	if pmex install-existing "$PKG_NAME" >&2; then
-		pmex uninstall-system-updates "$PKG_NAME"
+if pmex path "$PKG_NAME" >&2; then
+	pmex uninstall-system-updates "$PKG_NAME" >/dev/null 2>&1
+else
+	if pmex install-existing "$PKG_NAME" >/dev/null 2>&1; then
+		pmex uninstall-system-updates "$PKG_NAME" >/dev/null 2>&1
 	fi
 fi
 
-IS_SYS=false
 INS=true
 if BASEPATH=$(pmex path "$PKG_NAME"); then
 	echo >&2 "'$BASEPATH'"
 	BASEPATH=${BASEPATH##*:} BASEPATH=${BASEPATH%/*}
 	if [ "${BASEPATH:1:4}" != data ]; then
-		ui_print "* $PKG_NAME is a system app."
-		IS_SYS=true
+		ui_print "* Detected $PKG_NAME as a system app"
+		SCNM="/data/adb/post-fs-data.d/$PKG_NAME-uninstall.sh"
+		mkdir -p /data/adb/post-fs-data.d
+		echo "mount -t tmpfs none $BASEPATH" >"$SCNM"
+		chmod +x "$SCNM"
+		ui_print "* Created the uninstall script."
+		ui_print ""
+		ui_print "* Reboot and reflash the module!"
+
+		abort
 	elif [ ! -f "$MODPATH/$PKG_NAME.apk" ]; then
 		ui_print "* Stock $PKG_NAME APK was not found"
 		VERSION=$(dumpsys package "$PKG_NAME" 2>&1 | grep -m1 versionName) VERSION="${VERSION#*=}"
@@ -123,6 +132,7 @@ install() {
 					fi
 					continue
 				fi
+				continue
 			fi
 			ui_print "ERROR: install-commit failed"
 			install_err="$op"
