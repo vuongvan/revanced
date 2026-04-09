@@ -1,4 +1,4 @@
-name: Auto Sync Fork (Custom Branch)
+name: Auto Sync Fork (With Workflow Permission)
 
 on:
   schedule:
@@ -8,14 +8,12 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Quan trọng: lấy toàn bộ lịch sử để merge không lỗi
+          token: ${{ secrets.PAT_TOKEN }} # Dùng PAT để có quyền ghi đè workflow
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
@@ -24,17 +22,14 @@ jobs:
 
       - name: Sync with Upstream
         run: |
-          # 1. Thêm repo gốc vào remote
           git remote add upstream https://github.com/j-hc/revanced-magisk-module.git
           git fetch upstream
-
-          # 2. Đảm bảo đang ở đúng nhánh gọi workflow (ví dụ: rvx)
+          
           git checkout ${{ github.ref_name }}
-
-          # 3. Merge nhánh 'main' của upstream vào nhánh hiện tại của bạn
-          # Thay 'main' bằng 'master' nếu upstream dùng master
+          
+          # Merge và ưu tiên lấy thay đổi từ upstream
           git merge upstream/main --no-edit || git merge upstream/master --no-edit
-
-          # 4. Push lên fork của bạn
+          
+          # Đẩy code lên bằng PAT đã config ở bước checkout
           git push origin ${{ github.ref_name }}
           
