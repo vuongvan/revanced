@@ -14,20 +14,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Black-rvx]
-enabled = true
-app-name = "og-black"
-patches-source = "anddea/revanced-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "rvx"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black -e 'Custom branding icon for YouTube' -OappIcon=youtube -OrestoreOldSplashAnimation=true -e 'Custom branding name for YouTube' -OappName='YouTube X'"
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Change version code' 'Custom branding name for YouTube'"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
 [Music]
 build-mode = "both"
 arch = "both"
