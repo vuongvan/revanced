@@ -1,4 +1,4 @@
-parallel-jobs = 4
+parallel-jobs = 0
 enable-magisk-update = true
 
 [Black-rv]
