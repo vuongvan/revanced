@@ -19,14 +19,23 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Đang lấy danh sách các release..."
-          # Lấy danh sách tag của các release và xóa từng cái một
-          gh release list --limit 1000 | cut -f 1 | xargs -I {} gh release delete {} --yes --cleanup-tag
+          echo "Đang lấy danh sách các Release chính xác..."
           
-          echo "Đã xóa xong tất cả Releases và các Tag đi kèm."
+          # Sử dụng --json và --jq để lấy đúng tagName, tránh lỗi "release not found"
+          gh release list --limit 1000 --json tagName --jq '.[].tagName' | xargs -I {} gh release delete {} --yes --cleanup-tag
+          
+          echo "Đã dọn dẹp xong Releases."
 
-      - name: Delete Remaining Tags (If any)
+      - name: Delete All Tags (Hard Reset)
         run: |
-          # Đôi khi có những tag không gắn với release nào, lệnh này sẽ dọn sạch chúng
-          git tag | xargs -I {} git push --delete origin {}
-          echo "Đã xóa sạch toàn bộ tags còn lại trên remote."
+          # Lấy danh sách toàn bộ tag từ remote và xóa sạch
+          git fetch --tags
+          tags=$(git tag)
+          if [ -z "$tags" ]; then
+            echo "Không còn tag nào để xóa."
+          else
+            echo "Đang xóa các tag còn sót lại..."
+            echo "$tags" | xargs -I {} git push origin :refs/tags/{}
+            echo "Đã xóa sạch toàn bộ tag."
+          fi
+          
