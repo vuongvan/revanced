@@ -105,13 +105,32 @@ install() {
 		if ! op=$(pmex install-commit "$SES"); then
 			ui_print "$op"
 			if echo "$op" | grep -q -e INSTALL_FAILED_VERSION_DOWNGRADE -e INSTALL_FAILED_UPDATE_INCOMPATIBLE; then
-				ui_print "* Uninstalling..."
-				if ! op=$(pmex uninstall "$PKG_NAME"); then
-					ui_print "$op"
-					if [ $IT = 2 ]; then
-						install_err="ERROR: pm uninstall failed."
-						break
+				ui_print "* Handling install error"
+				pmex uninstall-system-updates "$PKG_NAME"
+				if BASEPATH=$(pmex path "$PKG_NAME"); then
+					BASEPATH=${BASEPATH##*:} BASEPATH=${BASEPATH%/*}
+					if [ "${BASEPATH:1:4}" != data ]; then IS_SYS=true; fi
+				fi
+				if [ "$IS_SYS" = true ]; then
+					SCNM="/data/adb/post-fs-data.d/$PKG_NAME-uninstall.sh"
+					mkdir -p /data/adb/post-fs-data.d
+					echo "mount -t tmpfs none $BASEPATH" >"$SCNM"
+					chmod +x "$SCNM"
+					ui_print "* Created the uninstall script."
+					ui_print ""
+					ui_print "* Reboot and reflash the module!"
+					install_err=" "
+					break
+				else
+					ui_print "* Uninstalling..."
+					if ! op=$(pmex uninstall -k --user 0 "$PKG_NAME"); then
+						ui_print "$op"
+						if [ $IT = 2 ]; then
+							install_err="ERROR: pm uninstall failed."
+							break
+						fi
 					fi
+					continue
 				fi
 				continue
 			fi
