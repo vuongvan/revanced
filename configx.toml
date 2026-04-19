@@ -1,6 +1,5 @@
 [YouTube]
 build-mode = "apk"
-excluded-patches = "'XTheme' 'Change header' 'XCustom branding' 'Alternative thumbnails' 'Return YouTube Dislike'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
