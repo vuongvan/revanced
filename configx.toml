@@ -27,10 +27,6 @@ included-patches = "'Change version code' 'Custom branding name for YouTube'"
 excluded-patches = "'Custom branding icon forYouTube' 'Custom header for YouTube' 'Return YouTube Dislike' 'Alternative thumbnails'"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-excluded-patches = """\
-  'Alternative thumbnails' \
-  'Return YouTube Dislike' \
-  """
 
 [Music-Morphe]
 app-name = "Music"
