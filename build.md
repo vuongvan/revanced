@@ -1,6 +1,7 @@
-Music-Morphe: 8.44.54  
 Music-Anddea: 8.30.54  
+Music-Morphe: 8.44.54  
 YouTube-Anddea: 20.05.46  
+YouTube-Morphe: 20.45.36  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
