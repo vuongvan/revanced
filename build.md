@@ -18,5 +18,5 @@ Patches: MorpheApp/patches-1.27.0.mpp
 CLI: ReVanced/revanced-cli-6.0.0-all.jar    
 
 Skipped:  
-Patches: anddea/patches-4.0.0.mpp    
+Patches: anddea/patches-4.0.0.mpp  
 Patches: MorpheApp/patches-1.27.0.mpp    
