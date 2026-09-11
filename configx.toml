@@ -22,11 +22,11 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rv"
 build-mode = "apk"
-patcher-args = "-d 'Theme' -d 'Alternative thumbnails' -d 'Return YouTube Dislike' -e 'Change package name' -OpackageName=app.revanced.youtube "
+patcher-args = "-d 'Theme' -d 'Alternative thumbnails' -d 'Return YouTube Dislike' -e 'Clone app' -OpackageName=app.revanced.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-included-patches = "'Change package name'"
+included-patches = "'Clone app'"
 
 [YouTube-Anddea]
 enabled = true
