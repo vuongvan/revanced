@@ -1,5 +1,3 @@
-Music-Anddea: 9.15.51  
-Music-Morphe: 9.15.51  
 YouTube-Anddea: 20.51.39  
 YouTube-Morphe: 21.13.164  
 YouTube-Revanced: 21.13.164  
