@@ -29,6 +29,13 @@ jobs:
         env:
           GH_TOKEN_ALT: ${{ secrets.GH_TOKEN_ALT }}
           REPO_ALT: ${{ vars.REPO_ALT }}
+      - name: Replace config
+        run: |
+          cp -f configx.toml config.toml
+          cp -f ksx.keystore ks.keystore
+ 
+      - name: Update config
+        if: ${{ inputs.from_ci }}
         run: |
           if [[ -n "$GH_TOKEN_ALT" && -n "$REPO_ALT" ]]; then
             echo "Release repository: $REPO_ALT"

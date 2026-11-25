@@ -1,0 +1,41 @@
+name: Delete All Releases and Tags
+
+on:
+  workflow_dispatch: # Chỉ chạy thủ công để tránh tai nạn
+
+jobs:
+  delete-releases:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cần quyền ghi để xóa dữ liệu
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Lấy toàn bộ lịch sử để thấy hết tags
+
+      - name: Delete All Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Đang lấy danh sách các Release chính xác..."
+          
+          # Sử dụng --json và --jq để lấy đúng tagName, tránh lỗi "release not found"
+          gh release list --limit 1000 --json tagName --jq '.[].tagName' | xargs -I {} gh release delete {} --yes --cleanup-tag
+          
+          echo "Đã dọn dẹp xong Releases."
+
+      - name: Delete All Tags (Hard Reset)
+        run: |
+          # Lấy danh sách toàn bộ tag từ remote và xóa sạch
+          git fetch --tags
+          tags=$(git tag)
+          if [ -z "$tags" ]; then
+            echo "Không còn tag nào để xóa."
+          else
+            echo "Đang xóa các tag còn sót lại..."
+            echo "$tags" | xargs -I {} git push origin :refs/tags/{}
+            echo "Đã xóa sạch toàn bộ tag."
+          fi
+          
